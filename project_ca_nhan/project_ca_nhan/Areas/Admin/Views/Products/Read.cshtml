@@ -1,0 +1,112 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/Layout.cshtml";
+}
+@using project_ca_nhan.Models
+@using X.PagedList.Mvc.Core
+@model X.PagedList.IPagedList<ItemProduct>
+@functions{
+    public MyDbcontext db = new MyDbcontext();
+    public List<ItemCategory> Getcategories(int ProductId)
+    {
+        var list_category = (from product in db.Products
+                             join category_product in db.CategoriesProducts
+                             on product.Id equals category_product.ProductId
+                             join category in db.Categories
+                             on category_product.CategoryId equals category.Id
+                             where product.Id == ProductId
+                             select category
+        ).ToList();
+        return list_category;
+    }
+    public List<ItemTag> GetTags(int id)
+    {
+        var list_category = (from product in db.Products
+                             join category_product in db.TagsProducts
+                             on product.Id equals category_product.ProductId
+                             join category in db.Tags
+                             on category_product.TagId equals category.Id
+                             where product.Id == id
+                             select category
+       ).OrderByDescending(item => item.Id).ToList();
+        return list_category;
+        // //su dung linq de join 3 bang Tags, TagsProducts, Products de lay ket qua
+        // var result = db.Tags.Where(s=>s.Id == id).ToList();
+        // return result;
+    }
+}
+<div class="col-md-12">
+    <div style="margin-bottom:5px;">
+        <a href="/Admin/Products/Create" class="btn btn-primary">Add</a>
+    </div>
+    <div class="panel panel-primary">
+        <div class="panel-heading">List User</div>
+        <div class="panel-body">
+            <table class="table table-bordered table-hover">
+                <tr>
+                    <th>iMAGE</th>
+                    <th>Name</th>
+                    <th style="width: 200px">Categories</th>
+                    <th style="width: 200px">Tags</th>
+                    <th style="width: 10px">Price</th>
+                    <th style="width: 80px">Hot</th>
+                    <th style="width: 100px"></th>
+                    <th>Email</th>
+                    <th style="width:100px;"></th>
+                </tr>
+                @foreach (var row in Model)
+                {
+                    <tr>
+                        <td>
+                            @if(row.Photo != "")
+                            {
+                                <img src="~/Upload/Products/@row.Photo"  style="width: 100px"/>
+                            }
+                        </td>
+                        <td>@row.Name</td>
+                        <td>
+                            @{
+                                var list_category = Getcategories(row.Id);
+                            }
+                            @foreach(var Item in list_category)
+                            {
+                                <div>@Item.Name</div>
+
+                            }
+                        </td>
+                        <td>
+                            @{
+                                var list_tag = GetTags(row.Id);
+                            }
+                            @foreach (var x in list_tag)
+                            {
+                                <div>@x.Name</div>
+
+                            }
+                        </td>
+                      
+                        <td>@row.Price</td>
+                        <td style="text-align:center;">
+                            @if(row.Hot == 1)
+                            {
+                                <span>Hot</span>
+                            }
+                        </td>
+                        <td style="text-align:center;">
+                            <a href="/Admin/Products/Update/@row.Id">Edit</a>&nbsp;
+                            <a href="/Admin/Products/Delete/@row.Id" onclick="return window.confirm('Bạn có muốn xóa không?');">Delete</a>
+                        </td>
+                    </tr>
+                }
+
+            </table>
+            <style type="text/css">
+                .pagination {
+                    padding: 0px;
+                    margin: 0px;
+                }
+            </style>
+
+            @Html.PagedListPager(Model, page => Url.Action("Read", new { page = page, a = 1, b = 2, c = 3 }))
+        </div>
+    </div>
+</div>

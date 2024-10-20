@@ -1,0 +1,80 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/Layout.cshtml";
+}
+@{
+    DateTime _date = Model != null ? Convert.ToDateTime(Model.Date) : "";
+    string _Message = Model != null ? Model.Message : "";
+    int _CustomerId = Model != null ? Convert.ToInt32(Model.CustomerId) : 0;
+    int Id = Model != null ? Convert.ToInt32(Model.Id) : 0;
+}
+@* cho viec su dung select de dang hon cho dong duoi *@
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+@using project_ca_nhan.Models
+@functions {
+    public MyDbcontext db = new MyDbcontext();
+    public string getname(int _id)
+    {
+        var x = db.Customers.FirstOrDefault(s => s.Id == _id);
+        return x != null ? x.Name : "Không Tìm Thấy Tên Người Dùng";
+    }
+   
+}
+<script src="https://cdn.ckeditor.com/ckeditor5/41.2.1/classic/ckeditor.js"></script>
+<div class="col-md-12">
+    <div class="panel panel-primary">
+        <div class="panel-body">
+            <form method="post" action="@ViewBag.action" enctype="multipart/form-data">
+                @Html.AntiForgeryToken()
+                <!-- rows -->
+                <!-- tai cho nay no se liet ke ra danh sach cac user bang cach tinh kiem cac user do dung select2t-->
+                <div class="row" style="margin-top:5px;">
+                    <div class="col-md-2">Name Customer</div>
+                    <div class="col-md-10">
+                        <input type="text" value="@getname(_CustomerId)" name="CustomerId" class="form-control" disabled>
+                    </div>
+                </div>
+                <!-- end rows -->
+                <!-- rows -->
+                <div class="row" style="margin-top:5px;">
+                    <div class="col-md-2">date</div>
+                    <div class="col-md-10">
+                        <input type="datetime" value="@_date" min="0" name="Date" class="form-control" disabled>
+                    </div>
+                </div>
+                <!-- end rows -->
+                <!-- rows -->
+                
+                <!-- end rows -->
+               
+                <!-- rows -->
+                <div class="row" style="margin-top:5px;">
+                    <div class="col-md-2">Message</div>
+                    <div class="col-md-10">
+                        <textarea id="Description" name="Message" class="form-control">
+                            @_Message
+                        </textarea>
+                        <script>
+                            ClassicEditor
+                                .create(document.querySelector('#Description'))
+                                .catch(error => {
+                                    console.error(error);
+                                });
+                        </script>
+
+                    </div>
+                </div>
+                <!-- end rows -->
+               
+                <!-- rows -->
+                <div class="row" style="margin-top:5px;">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-10">
+                        <input type="submit" value="Process" class="btn btn-primary">
+                    </div>
+                </div>
+                <!-- end rows -->
+            </form>
+        </div>
+    </div>
+</div>

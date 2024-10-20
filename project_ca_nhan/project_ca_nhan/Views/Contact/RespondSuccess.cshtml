@@ -1,0 +1,98 @@
+﻿@{
+    Layout = "/Views/Shared/LayoutTrangChu.cshtml";
+}
+@using project_ca_nhan.Models
+@functions {
+    public MyDbcontext db = new MyDbcontext();
+
+}
+<div class="clearfix">
+</div>
+<div class="container_fullwidth">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h5 class="title contact-title">
+                    Contact Us
+                </h5>
+                <div class="clearfix">
+                </div>
+                <div class="map">
+
+                    <iframe width="600" height="350" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.4737884535357!2d105.73252650884056!3d21.053730980520893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31345457e292d5bf%3A0x20ac91c94d74439a!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2hp4buHcCBIw6AgTuG7mWk!5e0!3m2!1svi!2s!4v1715486982741!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="clearfix">
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="contact-infoormation">
+                            <h5>
+                                Contact Info
+                            </h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur ad ipis cing elit. Suspendisse at sapien mascsa. Lorem ipsum dolor sit amet, consectetur se adipiscing elit. Sed fermentum, sapien scele risque volutp at tempor, lacus est sodales massa, a hendrerit dolor slase turpis non mi.
+                            </p>
+                            
+                            <ul>
+                                <li>
+                                    <span class="icon">
+                                        <img src="~/Admin/images/message.png" alt="">
+                                    </span>
+                                    <p>
+                                        contact@michaeldesign.me
+                                        <br>
+                                        support@michaeldesign.me
+                                    </p>
+                                </li>
+                                <li>
+                                    <span class="icon">
+                                        <img src="~/Admin/images/phone.png" alt="">
+                                    </span>
+                                    <p>
+                                        084. 93 668 2236
+                                        <br>
+                                        084. 93 668 6789
+                                    </p>
+                                </li>
+                                <li>
+                                    <span class="icon">
+                                        <img src="Admin/images/address.png" alt="">
+                                    </span>
+                                    <p>
+                                        No.86 ChuaBoc St, DongDa Dt,
+                                        <br>
+                                        Hanoi, Vietnam
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="ContactForm">
+                            <h5>
+                                Contact Form
+                            </h5>
+                            <p style="font-family: 'Times New Roman'; text-indent: 20px;font-size: 20px">
+                                Chúng tôi xin chân thành tới quý khách hàng <b>@Context.Session.GetString("customer_user_name")</b> đã dành thời gian để chia sẻ phản hồi về sản phẩm của chúng tôi. Sự quan tâm và ý kiến đóng góp của quý vị không chỉ là nguồn động viên lớn mạnh, mà còn là cơ sở quan trọng giúp chúng tôi phát triển và cải thiện chất lượng sản phẩm hàng ngày.
+
+                                
+                                   </p>
+                            <p style="font-family: 'Times New Roman'; text-indent: 20px;font-size: 20px">
+                                Những ý kiến, nhận xét và đề xuất từ quý vị không chỉ giúp chúng tôi hiểu rõ hơn về nhu cầu và mong muốn của khách hàng mà còn là nguồn động viên không ngừng để chúng tôi nỗ lực hơn nữa trong việc cung cấp dịch vụ tốt nhất.
+
+                            </p>
+                            <p style="font-family: 'Times New Roman'; text-indent: 20px;font-size: 20px">
+                                Chúng tôi cam kết tiếp tục lắng nghe và đáp ứng mọi phản hồi từ quý vị để mang lại trải nghiệm tốt nhất cho mọi người. Hãy tiếp tục ủng hộ và đồng hành cùng chúng tôi trong hành trình phát triển và hoàn thiện sản phẩm. Một lần nữa, chúng tôi xin chân thành cảm ơn sự ủng hộ và đóng góp quý báu của quý vị.
+
+                            </p>
+
+                         
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

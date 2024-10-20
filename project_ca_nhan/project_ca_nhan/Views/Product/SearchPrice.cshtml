@@ -1,0 +1,124 @@
+﻿@{
+    Layout = "~/Views/Shared/LayoutTrangTrong.cshtml";
+}
+@using project_ca_nhan.Models
+@using project_ca_nhan.MyClass
+@using X.PagedList.Mvc.Core
+@model X.PagedList.IPagedList<ItemProduct>
+@functions {
+    public MyDbcontext db = new MyDbcontext();
+    public List<ItemSlide> getSlide()
+    {
+        var x = db.Slides.OrderByDescending(s => s.Id).ToList();
+        return x;
+    }
+    
+}
+<div class="col-md-9">
+    <div class="banner">
+        <div class="bannerslide" id="bannerslide">
+            @{
+                var list_slide = getSlide();
+            }
+
+            <ul class="slides">
+                @foreach (var slide in list_slide)
+                {
+                    <li>
+                        <a href="#">
+                            <img src="~/Upload/Slides/@slide.Photo" alt="" style="height: 450px" />
+                        </a>
+                    </li>
+                }
+
+
+            </ul>
+        </div>
+    </div>
+    <div class="clearfix">
+    </div>
+    <div class="products-grid">
+        <div class="toolbar">
+            <div class="sorter">
+
+                <div class="view-mode">
+                    <span>From @ViewBag.FromPrice To @ViewBag.ToPrice</span>
+                </div>
+            </div>
+            <div class="wrap-pagination-info">
+                <ul class="page-numbers" style="display: flex">
+                    <li>Trang</li>
+                    &nbsp; &nbsp;
+                    @for (int i = 1; i <= Model.PageCount; i++)
+                    {
+                        string str_current = (i == Model.PageNumber) ? "current" : "";
+                        <li style="padding-right: 50px"> <span class="page-number-item @str_current"><a href="/Product/SearchPrice?page=@i&FromPrice=@ViewBag.FromPrice&ToPrice=@ViewBag.ToPrice"> @i</a></span></li>
+                    }
+                </ul>
+            </div>
+        </div>
+        <div class="clearfix">
+        </div>
+        <div class="row">
+            @foreach (var pro in Model)
+            {
+                <div class="col-md-4 col-sm-6">
+                    <div class="products">
+                        <div class="thumbnail" style="height: 300px">
+                            <a href="/Product/Detail/@pro.Id">
+                                <img src="~/Upload/Products/@pro.Photo" alt="@pro.Name">
+                            </a>
+                        </div>
+                        <div class="productname">
+                            @pro.Name
+                        </div>
+                        <h4 class="price">
+                            $@pro.Price
+                        </h4>
+                        <div class="button_group">
+                            <button class="button add-cart" type="button">
+                                <a href="/Cart/Add/@pro.Id" style="text-decoration: none">Add To Cart</a>
+                            </button>
+                            <button class="button compare" type="button">
+                                <i class="fa fa-exchange">
+                                </i>
+                            </button>
+                            <button class="button wishlist" type="button">
+                                <i class="fa fa-heart-o">
+                                </i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            }
+
+
+        </div>
+        <div class="clearfix">
+        </div>
+        <div class="toolbar">
+            <div class="sorter bottom">
+                
+                  
+                
+                
+
+               
+                
+            </div>
+            <div class="wrap-pagination-info">
+                <ul class="page-numbers" style="display: flex">
+                    <li>Trang</li>
+                    @for (int i = 1; i <= Model.PageCount; i++)
+                    {
+                        string str_current = (i == Model.PageNumber) ? "current" : "";
+                        <li style="padding-right: 50px"> <span class="page-number-item @str_current"><a href="/Product/SearchPrice?page=@i&FromPrice=@ViewBag.FromPrice&ToPrice=@ViewBag.ToPrice"> @i</a></span></li>
+                    }
+                </ul>
+            </div>
+        </div>
+        <h1 style="background-color: red; color: white">Product From : @ViewBag.FromPrice To @ViewBag.ToPrice</h1>
+        <div class="clearfix">
+        </div>
+    </div>
+</div>

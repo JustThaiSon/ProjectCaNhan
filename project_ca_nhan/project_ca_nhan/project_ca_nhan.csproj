@@ -1,0 +1,65 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Areas\Admin\Data\**" />
+    <Compile Remove="Areas\Admin\Models\**" />
+    <Content Remove="Areas\Admin\Data\**" />
+    <Content Remove="Areas\Admin\Models\**" />
+    <EmbeddedResource Remove="Areas\Admin\Data\**" />
+    <EmbeddedResource Remove="Areas\Admin\Models\**" />
+    <None Remove="Areas\Admin\Data\**" />
+    <None Remove="Areas\Admin\Models\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.3" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+    <PackageReference Include="X.PagedList.Mvc.Core" Version="9.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Upload\Tags\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Areas\Admin\Views\Categories\CreateUpdate.cshtml" />
+    <None Include="Areas\Admin\Views\Categories\Read.cshtml" />
+    <None Include="Areas\Admin\Views\Products\CreateUpdate.cshtml" />
+    <None Include="Areas\Admin\Views\Products\Read.cshtml" />
+    <None Include="wwwroot\Fontend\fonts\Flaticon.svg" />
+    <None Include="wwwroot\Fontend\fonts\flexslider-icon.svg" />
+    <None Include="wwwroot\Fontend\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\Fontend\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\Fontend\fonts\fontawesome-webfont3e6e.svg" />
+    <None Include="wwwroot\Fontend\fonts\fontawesome-webfont3e6e.woff2" />
+    <None Include="wwwroot\Fontend\fonts\glyphicons-halflings-regular.svg" />
+    <None Include="wwwroot\Fontend\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="wwwroot\Fontend\js\bootstrap.min.js" />
+    <None Include="wwwroot\Fontend\js\chosen.jquery.min.js" />
+    <None Include="wwwroot\Fontend\js\functions.js" />
+    <None Include="wwwroot\Fontend\js\jquery-1.10.2.min.js" />
+    <None Include="wwwroot\Fontend\js\jquery-1.12.4.minb8ff.js" />
+    <None Include="wwwroot\Fontend\js\jquery-ui-1.12.4.minb8ff.js" />
+    <None Include="wwwroot\Fontend\js\jquery.carouFredSel-6.2.1-packed.js" />
+    <None Include="wwwroot\Fontend\js\jquery.countdown.min.js" />
+    <None Include="wwwroot\Fontend\js\jquery.easing.1.3.js" />
+    <None Include="wwwroot\Fontend\js\jquery.elevatezoom.js" />
+    <None Include="wwwroot\Fontend\js\jquery.flexslider.js" />
+    <None Include="wwwroot\Fontend\js\jquery.sequence-min.js" />
+    <None Include="wwwroot\Fontend\js\jquery.sticky.js" />
+    <None Include="wwwroot\Fontend\js\owl.carousel.min.js" />
+    <None Include="wwwroot\Fontend\js\script.min.js" />
+  </ItemGroup>
+
+</Project>

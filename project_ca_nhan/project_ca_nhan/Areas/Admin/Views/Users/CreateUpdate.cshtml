@@ -1,0 +1,92 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/Layout.cshtml";
+}
+@{
+    string _Name = Model != null ? Model.Name : "";
+    string _Email = Model != null ? Model.Email : "";
+    string _Password = Model != null ? Model.Password : "";
+
+}
+@using project_ca_nhan.Models
+@functions{
+    public MyDbcontext db = new MyDbcontext();
+    public int getstatic(){
+        ItemUsers x = db.Users.Where(s => s.Email == Context.Session.GetString("Admin_user_email")).FirstOrDefault();
+        return x != null ? x.Status : -1;
+    } 
+}
+<div class="col-md-12">
+    <div class="panel panel-primary">
+        @if(getstatic() == 1)
+        {
+            <div class="panel-heading">Xin Chào @Context.Session.GetString("Admin_user_email") , Mời Bạn Thêm Cộng Tác Viên</div>
+
+        }
+        @if(getstatic() == 2)
+        {
+            <div class="panel-heading">Xin Chào @Context.Session.GetString("Admin_user_email") , Mời Bạn Thêm Cộng Tác Viên Hoặc các Admin Phụ</div>
+        }
+        <div class="panel-heading">Create Update</div>
+        <div class="panel-body">
+            <form method="post" action="@ViewBag.action">
+                <!-- rows -->
+                <div class="row" style="margin-top:5px;">
+                    <div class="col-md-2">Name</div>
+                    <div class="col-md-10">
+                        <input type="text" value="@_Name" name="Name" class="form-control" required>
+                    </div>
+                </div>
+                <!-- end rows -->
+                <!-- rows -->
+                <div class="row" style="margin-top:5px;">
+                    <div class="col-md-2">Email</div>
+                    <div class="col-md-10">
+                        <input type="email" value="@_Email" name="Email" class="form-control" required>
+                    </div>
+                </div>
+                <!-- end rows -->
+                <!-- rows -->
+                <div class="row" style="margin-top:5px;">
+                    @{
+                        string pass = Model != null ? "placeholder='Không đổi password thì không nhập thông tin vào ô textbox này'" : "required";
+                    }
+                    <div class="col-md-2">Password</div>
+                    <div class="col-md-10">
+                        <input type="password" name="Password" class="form-control" @Html.Raw(pass)>
+                    </div>
+                </div>
+                <div class="row" style="margin-top:5px;">
+                    <div class="col-md-2">Static</div>
+                    <div class="col-md-10">
+                        @if(getstatic() == 1)
+                        {
+                            // su dung cau lenh request.qery de duyet du lieu vao
+                            <select name="static">
+                                <option value="0" @(ViewBag.Static == 0 ? "selected" : "")>Cộng Tác Viên</option>
+                               
+                            </select>
+                        }
+                        @if(getstatic() == 2)
+                        {
+                            <select name="static">
+                                <option value="0" @(ViewBag.Static == 0 ? "selected" : "")>Cộng Tác Viên</option>
+                                <option value="1" @(ViewBag.Static == 1 ? "selected" : "")>Admin Phụ</option>
+                              
+                            </select>
+                        }
+
+                    </div>
+                </div>
+                <!-- end rows -->
+                <!-- rows -->
+                <div class="row" style="margin-top:5px;">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-10">
+                        <input type="submit" value="Process" class="btn btn-primary">
+                    </div>
+                </div>
+                <!-- end rows -->
+            </form>
+        </div>
+    </div>
+</div>

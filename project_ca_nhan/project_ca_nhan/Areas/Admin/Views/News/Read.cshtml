@@ -1,0 +1,59 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/Layout.cshtml";
+}
+@using project_ca_nhan.Models
+@using X.PagedList.Mvc.Core;
+@model X.PagedList.IPagedList<ItemNews>
+<div class="col-md-12">
+    <div style="margin-bottom:5px;">
+        <a href="/Admin/Newss/Create" class="btn btn-primary">Add user</a>
+    </div>
+    <div class="panel panel-primary">
+        <div class="panel-heading">List User</div>
+        <div class="panel-body">
+            <table class="table table-bordered table-hover">
+                <tr>
+                    <th style="width: 100px">Image</th>
+                    <th style="width: 200px">Name</th>
+                    <th style="width: 100px">Hot</th>
+                    <th style="width:100px;"></th>
+                </tr>
+                @foreach(var row in Model){
+                <tr>
+                    <td>
+                        @if(row.Photo !=""){
+                            <img src="~/Upload/News/@row.Photo" style="width: 100px"/>
+                        }
+
+                    </td>
+                    <td>@row.Name</td>
+           
+                    
+                    <td style="text-align:center;">
+                        @if(row.Hot == 1){
+                            <span>Hot</span>
+                        }
+
+                       
+                    </td>
+
+                    <td>
+                            <a href="/Admin/News/Update/@row.Id">Update</a>&nbsp;
+                            <a href="/Admin/News/Delete/@row.Id" onclick="return window.confirm('Are you sure?');">Delete</a>
+                    </td>
+                </tr>
+                }
+            </table>
+            <style type="text/css">
+                .pagination {
+                    padding: 0px;
+                    margin: 0px;
+                }
+            </style>
+            @*phan trang bang tay*@
+            @*So trang: @Model.PageCount /
+            Trang hien tai: @Model.PageNumber*@
+            @Html.PagedListPager(Model, page => Url.Action("Read", new { page = page, a = 1, b = 2 }))
+        </div>
+    </div>
+</div>

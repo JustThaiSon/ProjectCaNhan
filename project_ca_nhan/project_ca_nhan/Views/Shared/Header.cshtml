@@ -1,0 +1,314 @@
+﻿@using Newtonsoft.Json
+@using project_ca_nhan.Models
+@using project_ca_nhan.MyClass
+@functions{
+    public MyDbcontext db = new MyDbcontext();
+    public List<Item> getItem()
+    {
+        string cart = Context.Session.GetString("cart");
+        if (cart != null)
+        {
+            List<Item> Items = JsonConvert.DeserializeObject<List<Item>>(cart);
+            return Items;
+        }
+        return new List<Item>();
+
+    }
+    // goi ra tat ca cac danh muc cua nam 
+    public List<ItemCategory> danhmuc()
+    {
+
+        ItemCategory timkiem = db.Categories.Where(s=>s.ParentId==0 && s.Name.Contains("Nam")).FirstOrDefault();
+        List<ItemCategory> danhmucne = new List<ItemCategory>();
+        if(timkiem != null)
+        {
+            danhmucne = db.Categories.Where(s => s.ParentId == timkiem.Id).ToList();
+        }
+       
+        return danhmucne;
+
+    }
+    // goi ra tat ca cac danh muc cua nam
+    public List<ItemCategory> danhmucnu()
+    {
+
+        ItemCategory timkiem = db.Categories.Where(s => s.ParentId == 0 && s.Name.Contains("Nữ")).FirstOrDefault();
+        List<ItemCategory> danhmucne = new List<ItemCategory>();
+        if (timkiem != null)
+        {
+            danhmucne = db.Categories.Where(s => s.ParentId == timkiem.Id).ToList();
+        }
+
+        return danhmucne;
+
+    }
+
+
+
+}
+<div class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 col-sm-2">
+                <div class="logo"><a href="/Home"><img src="~/Fontend/images/logo.png" alt="FlatShop"></a></div>
+            </div>
+            <div class="col-md-10 col-sm-10">
+                <div class="header_top">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <ul class="option_nav">
+                                <li class="dorpdown">
+                                    <a href="#">Eng</a>
+                                    <ul class="subnav">
+                                        <li><a href="#">Eng</a></li>
+                                        <li><a href="#">Vns</a></li>
+                                        <li><a href="#">Fer</a></li>
+                                        <li><a href="#">Gem</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dorpdown">
+                                    <a href="#">USD</a>
+                                    <ul class="subnav">
+                                        <li><a href="#">USD</a></li>
+                                        <li><a href="#">UKD</a></li>
+                                        <li><a href="#">FER</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="topmenu">
+                                <li><a href="/Home">Home</a></li>
+                                <li><a href="/Cart/Read">Giỏ Hàng</a></li>
+                                <li><a href="/Product/Categories">Sản Phẩm</a></li>
+                                <li><a href="/Account/Orders">Đơn Hàng</a></li>
+                                <li><a href="#">Media</a></li>
+                                <li><a href="#">Support</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            @if(!String.IsNullOrEmpty(Context.Session.GetString("customer_user_id"))){
+                                <ul class="usermenu">
+                                    <li><a href="/Account/Login" class="log">Xin Chào @Context.Session.GetString("customer_user_email")</a></li>
+                                    <li><a href="/Account/EditProfile" class="reg">Edit Profile</a></li>
+                                    <li><a href="/Account/Logout" class="reg">Logout</a></li>
+                                </ul>
+                            }
+                           else{
+                                <ul class="usermenu">
+                                    <li><a href="/Account/Login" class="log">Login</a></li>
+                                    <li><a href="/Account/Register" class="reg">Register</a></li>
+                                </ul>
+                            }
+
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="header_bottom">
+                    <ul class="option">
+                        
+
+                       
+                        @{
+                            var l = getItem();
+                        }
+                        <li class="option-cart">
+                            <a href="/Cart/Read" class="cart-icon">cart <span class="cart_no">@l.Count()</span></a>
+                           
+                            <ul class="option-cart-item">
+                             @if(l.Count() >0){
+                                @foreach(var x in l)
+                                {
+                                    <li>
+                                        <div class="cart-item">
+                                            <div class="image"><img src="~/Upload/Products/@x.ProductRecord.Photo" alt=""></div>
+                                            <div class="item-description">
+                                                <p class="name">@x.ProductRecord.Name</p>
+                                                <p>Size: <span class="light-red">One size</span><br>Quantity: <span class="light-red">@x.Quantity</span></p>
+                                            </div>
+                                            <div class="right">
+                                                <p class="price">$@(x.Quantity* (x.ProductRecord.Price-(x.ProductRecord.Price*x.ProductRecord.Discount)/100))</p>
+                                                <a href="/Cart/Delete/@x.ProductRecord.Id" class="remove"><img src="~/Fontend/images/remove.png" alt="remove"></a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                }
+
+
+                                    <li><span class="total">Total <strong>$@Cart.CartTotal(Context.Session)</strong></span><button class="checkout" onClick="location.href='/Cart/Checkout'">MUA</button></li>
+                                }
+                                else
+                                {
+                                    <li><h5 style="color: white; background-color: red">Hiện Tại Chưa Có Sản Phẩm Nào</h5></li>
+                                }
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <div class="search_cha" style="display: flex">
+                                    <button class="search-submit" onclick="location.href='/Product/SearchName?key='+document.getElementById('key').value"></button>
+                                    <input onkeyup="search_ajax()" id="key" placeholder="Enter your search term..." type="text" style="width: 200px">
+                                    <div class="smart-search">
+                                        <ul>
+                                            <li><img src="~/Upload/Products/133347662826095067_digital_07.jpg" /><a href="">Product 1</a></li>
+                                            <li><img src="~/Upload/Products/133347662826095067_digital_07.jpg" /><a href="">Product 1</a></li>
+                                            <li><img src="~/Upload/Products/133347662826095067_digital_07.jpg" /><a href="">Product 1</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <style>
+                                    .search_cha{
+                                        position: relative;
+                                    }
+
+                                    .smart-search{
+                                        position: absolute;
+                                        width: 230px;
+                                        height: 150px;
+                                        z-index: 1000;
+                                        overflow:scroll;
+                                        left: 0px;
+                                        top: 50px;
+                                        display:none;
+                                        background: white;
+                                        
+                                    }
+                                    .smart-search ul{
+                                        list-style: none;
+                                    }
+                                    .smart-search ul li{
+                                        display: flex;
+                                      
+                                    }
+                                    .smart-search ul li img{
+                                        width: 80px;
+                                        height: 80px;
+                                    }
+                                    .smart-search ul li a{
+                                        color: deeppink;
+                                    }
+                                    </style>
+                                <script>
+
+                                    Jquery3_7_1(document).ready(function () {
+                                        function search_ajax() {
+
+                                            var key = document.getElementById("key").value;
+
+                                            // Kiểm tra giá trị key
+                                            if (key !== "") {
+                                                // Hiển thị phần tử với lớp 'smart-search'
+                                                $(".smart-search").css("display", "block"); // Hiển thị
+
+
+                                                $.get("/Product/SearchAjax?key=" + key, function (result) {
+
+
+                                                    $(".smart-search ul").empty();
+
+
+                                                    $(".smart-search ul").append(result);
+
+
+
+
+                                                });
+                                            } else {
+
+                                                $(".smart-search").css("display", "none"); // Ẩn
+                                            }
+                                        }
+                                    });
+                                    
+                                    
+                                </script>
+
+                            </li>
+                            <li class="active dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home</a>
+                                <div class="dropdown-menu">
+                                    <ul class="mega-menu-links">
+                                        <li><a href="index.html">home</a></li>
+                                        
+                                        <li><a href="contact.html">contact</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="/Product/Categories">Shop</a></li>
+                            <li class="active dropdown">
+                                <a href="/Product/Men" >Men</a>
+                                <div class="dropdown-menu">
+                                    <ul class="mega-menu-links">
+                                        @{
+                                            var dm = danhmuc();
+
+
+                                        }
+                                        @foreach (var pl in dm)
+                                        {
+                                            <li><a href="/Product/Categories/@pl.Id">@pl.Name</a></li>
+                                        }
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="active dropdown">
+                                <a href="/Product/Women">Women</a>
+                                <div class="dropdown-menu">
+                                    <ul class="mega-menu-links">
+                                        @{
+                                            var dmnu = danhmucnu();
+
+
+                                        }
+                                        @foreach (var pl1 in dmnu)
+                                        {
+                                            <li><a href="/Product/Categories/@pl1.Id">@pl1.Name</a></li>
+                                        }
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="dropdown">
+                                <a href="/Product/Categories">Categories</a>
+                                <div class="dropdown-menu mega-menu">
+                                    <div class="row">
+                                        <div class="col-md-7 col-sm-7">
+                                            <ul class="mega-menu-links">
+                                                @{
+                                                    var list_cha_categories = Categories.GetDanhMucCha(0);
+                                                    var list_con_categories = Categories.GetDanhMucCon();
+                                                }
+                                                @foreach(var t in list_cha_categories)
+                                                {
+                                                    <li><a href="/Product/Categories/@t.Id" style="font-weight: bold">@t.Name</a></li>
+                                                }
+                                                
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-5 col-sm-5">
+                                            <ul class="mega-menu-links">
+                                                @foreach(var pl in list_con_categories)
+                                                {
+                                                    <li><a href="/Product/Categories/@pl.Id">@pl.Name</a></li>
+                                                }
+                                                
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="/Contact/Contact">Contact</a></li>
+                            <li><a href="/Product/Tags">Brand</a></li>
+                            
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

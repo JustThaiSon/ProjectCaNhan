@@ -1,0 +1,381 @@
+﻿@{
+	Layout = "~/Views/Shared/LayoutTrangChu.cshtml";
+}
+@using project_ca_nhan.Models
+@using project_ca_nhan.MyClass
+
+@functions{
+    public MyDbcontext db = new MyDbcontext();
+    public List<ItemTag> GetTag()
+    {
+        List<ItemTag> items = db.Tags.OrderByDescending(s => s.Id).ToList();
+        return items;
+    }
+
+}
+<!--MAIN SLIDE-->
+<div class="clearfix"></div>
+<div class="hom-slider">
+    <div class="container">
+        <div id="sequence">
+            <div class="sequence-prev"><i class="fa fa-angle-left"></i></div>
+            <div class="sequence-next"><i class="fa fa-angle-right"></i></div>
+            <ul class="sequence-canvas">
+                <li class="animate-in">
+                    <div class="flat-caption caption1 formLeft delay300 text-center"><span class="suphead">Paris show 2014</span></div>
+                    <div class="flat-caption caption2 formLeft delay400 text-center">
+                        <h1>Collection For Winter</h1>
+                    </div>
+                    <div class="flat-caption caption3 formLeft delay500 text-center">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                    </div>
+                    <div class="flat-button caption4 formLeft delay600 text-center"><a class="more" href="#">More Details</a></div>
+                    <div class="flat-image formBottom delay200" data-duration="5" data-bottom="true"><img src="~/Fontend/images/slider-image-01.png" alt=""></div>
+                </li>
+                <li>
+                    <div class="flat-caption caption2 formLeft delay400">
+                        <h1>Collection For Winter</h1>
+                    </div>
+                    <div class="flat-caption caption3 formLeft delay500">
+                        <h2>Etiam velit purus, luctus vitae velit sedauctor<br>egestas diam, Etiam velit purus.</h2>
+                    </div>
+                    <div class="flat-button caption5 formLeft delay600"><a class="more" href="#">More Details</a></div>
+                    <div class="flat-image formBottom delay200" data-bottom="true"><img src="~/Fontend/images/slider-image-02.png" alt=""></div>
+                </li>
+                <li>
+                    <div class="flat-caption caption2 formLeft delay400 text-center">
+                        <h1>New Fashion of 2013</h1>
+                    </div>
+                    <div class="flat-caption caption3 formLeft delay500 text-center">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                    </div>
+                    <div class="flat-button caption4 formLeft delay600 text-center"><a class="more" href="#">More Details</a></div>
+                    <div class="flat-image formBottom delay200" data-bottom="true"><img src="~/Fontend/images/slider-image-03.png" alt=""></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="promotion-banner">
+        <div class="container">
+            @{
+                List<ItemSlide> list_slide = SlideShow.GetSlides();
+            }
+            
+            <div class="row">
+                 @foreach (var l in list_slide)
+              { 
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <div class="promo-box"><img src="~/Upload/Slides/@l.Photo" alt=""></div>
+                </div>
+              }
+                
+            </div>
+        </div>
+    </div>
+</div>
+<div class="clearfix"></div>
+<div class="container_fullwidth">
+    <div class="container">
+        <div class="hot-products">
+            <h3 class="title"><strong>Hot</strong> Products</h3>
+            <div class="control"><a id="prev_hot" class="prev" href="#">&lt;</a><a id="next_hot" class="next" href="#">&gt;</a></div>
+            <ul id="hot">
+                @{
+                    List<ItemProduct> hotnew = HotProduct.GetHotProduct();
+                    int soluongcan_list = hotnew.Count() / 4;
+                    
+                }
+               
+                @if(hotnew.Count() <=4){
+                <li>
+                    <div class="row">
+                @foreach(var y in hotnew)
+                {
+                            <div class="col-md-3 col-sm-6 col-xl-3">
+                                <div class="products">
+                                    <div class="offer">- %@y.Discount</div>
+                                    <div class="thumbnail" style="height: 350px"><a href="/Product/Detail/@y.Id"><img src="~/Upload/Products/@y.Photo" alt="@y.Name"></a></div>
+                                        <div class="price" style="color: black">
+                                            @y.Name
+                                        </div>
+                                    <h4 class="price">$@y.Price</h4>
+                                        <div class="button_group"><button class="button add-cart" type="button"><a href="/Cart/Add/@y.Id">Add To Cart</a></button><button class="button compare" type="button"><i class="fa fa-exchange"></i></button><button class="button wishlist" type="button"><i class="fa fa-heart-o"></i></button></div>
+                                </div>
+                            </div>
+                            
+                       
+                }
+                    </div>
+                </li>
+                }
+                else{
+                
+                        @for(int i=0;i< soluongcan_list;i++){
+                            <!-- no chi lay chinh xac 4 cai trong 1 the li , neu vuot qua 4 cai thif cos se tu tao the li moi-->
+
+                        <li>
+                            <div class="row">
+                            <!-- so luong trong 1 trang -->
+                            @for(int j=0;j< 4;j++){
+                                    int vitri = i * 4 + j;
+                                    if(vitri < hotnew.Count()){
+                                        var y = hotnew[vitri];
+                                        <div class="col-md-3 col-sm-6">
+                                        <div class="products">
+                                             <div class="offer">- %@y.Discount</div>
+                                            <div class="thumbnail" style="height: 350px"><a href="/Product/Detail/@y.Id"><img src="~/Upload/Products/@y.Photo" alt="@y.Name"></a></div>
+                                                <div class="price" style="color: black">
+                                                    @y.Name
+                                                </div>
+                                        <h4 class="price">$@y.Price</h4>
+                                                <div class="button_group"><button class="button add-cart" type="button"><a href="/Cart/Add/@y.Id">Add To Cart</a></button><button class="button compare" type="button"><i class="fa fa-exchange"></i></button><button class="button wishlist" type="button"><i class="fa fa-heart-o"></i></button></div>
+                                        </div>
+                                    </div>
+                                    }
+                            }
+                            </div>
+                        </li>
+                        
+                       }
+                   
+                }
+                
+               
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+        <div class="featured-products">
+            <h3 class="title">
+                <strong>
+                    Discount
+              </strong> Products
+            </h3>
+            <div class="control"><a id="prev_featured" class="prev" href="#">&lt;</a><a id="next_featured" class="next" href="#">&gt;</a></div>
+            <ul id="featured">
+                @{
+                    List<ItemProduct> list_discountproduct = DiscountProduct.GetDiscountProduct();
+                    int soluong_list = list_discountproduct.Count() / 4;
+
+                }
+                @if(list_discountproduct.Count() < 4)
+                {
+                    <li>
+                        <div class="row">
+                    @foreach(var y in list_discountproduct){
+                    
+                            <div class="col-md-3 col-sm-6">
+                                <div class="products">
+                                    <div class="offer">- %@y.Discount</div>
+                                        <div class="thumbnail" style="height: 350px"><a href="/Product/Detail/@y.Id"><img src="~/Upload/Products/@y.Photo" alt="@y.Name"></a></div>
+                                        <div class="price" style="color: black">
+                                            @y.Name
+                                        </div>
+                                    <h4 class="price">$@y.Price</h4>
+                                        <div class="button_group"><button class="button add-cart" type="button"><a href="/Cart/Add/@y.Id">Add To Cart</a></button><button class="button compare" type="button"><i class="fa fa-exchange"></i></button><button class="button wishlist" type="button"><i class="fa fa-heart-o"></i></button></div>
+                                </div>
+                            </div>
+                    }
+                        </div>
+                    </li>
+                }
+                else
+                {
+                    for(int i = 0; i < soluong_list; i++)
+                    {
+                        
+                            <li>
+                                <div class="row">
+                                    @for(int j=0;j< 4; j++)
+                                {
+                                    int vitri = i*4 +j;
+                                    @if(vitri< list_discountproduct.Count())
+                                    {
+                                        var y = list_discountproduct[vitri];
+                               
+                                        <div class="col-md-3 col-sm-6">
+                                            <div class="products">
+                                                <div class="offer">- %@y.Discount</div>
+                                                <div class="thumbnail" style="height: 350px"><a href="/Product/Detail/@y.Id"><img src="~/Upload/Products/@y.Photo" alt="@y.Name"></a></div>
+                                                <div class="price" style="color: black">
+                                                    @y.Name
+                                                </div>
+                                                <h4 class="price">$@y.Price</h4>
+                                                <div class="button_group"><button class="button add-cart" type="button"><a href="/Cart/Add/@y.Id">Add To Cart</a></button><button class="button compare" type="button"><i class="fa fa-exchange"></i></button><button class="button wishlist" type="button"><i class="fa fa-heart-o"></i></button></div>
+                                            </div>
+                                        </div>
+
+                                    }
+
+                                }
+                            </div>
+                            </li>
+                        
+                       
+                       
+                    }
+                }
+               
+                
+                
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+        @{
+            var k = Categories_DisplayHomePage.GetCategories();
+        }
+       
+        <h2 style="background-color: red; color: white;text-align: center">Categories</h2>
+        @foreach (var p in k)
+        {
+            <div class="featured-products">
+                @{
+                    List<ItemProduct> pp = Categories_DisplayHomePage.GetProducts(p.Id);
+                    int soluong_li = pp.Count() / 4;
+
+                }
+                @if(pp.Count > 0){
+                <h3 class="title">
+                    <strong>
+                        Categories
+                    </strong> @p.Name (Số Sản Phẩm @pp.Count())
+                </h3>
+                    <div class="control"><a id="prev_featured" class="prev" href="#">&lt;</a><a id="next_featured" class="next" href="#">&gt;</a></div>
+                    <ul id="featured">
+                    
+                
+                    @if (pp.Count() <= 4)
+                    {
+                        <li>
+                            <div class="row">
+                                @foreach (var y in pp)
+                                {
+
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="products">
+                                            <div class="offer">- %@y.Discount</div>
+                                            <div class="thumbnail" style="height: 350px"><a href="/Product/Detail/@y.Id"><img src="~/Upload/Products/@y.Photo" alt="@y.Name"></a></div>
+                                            <div class="price" style="color: black">
+                                                @y.Name
+                                            </div>
+                                            <h4 class="price">$@y.Price</h4>
+                                            <div class="button_group"><button class="button add-cart" type="button"><a href="/Cart/Add/@y.Id">Add To Cart</a></button><button class="button compare" type="button"><i class="fa fa-exchange"></i></button><button class="button wishlist" type="button"><i class="fa fa-heart-o"></i></button></div>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </li>
+                    }
+                    else
+                    {
+                        for (int i = 0; i <= soluong_li; i++)
+                        {
+
+                            <li>
+                                <div class="row">
+                                    @for (int j = 0; j < 4; j++)
+                                    {
+                                        int vitri = i * 4 + j;
+                                        @if (vitri < pp.Count())
+                                        {
+                                            var y = pp[vitri];
+
+                                            <div class="col-md-3 col-sm-6">
+                                                <div class="products">
+                                                    <div class="offer">- %@y.Discount</div>
+                                                    <div class="thumbnail" style="height: 350px"><a href="/Product/Detail/@y.Id"><img src="~/Upload/Products/@y.Photo" alt="@y.Name"></a></div>
+                                                    <div class="price" style="color: black">
+                                                        @y.Name
+                                                    </div>
+                                                    <h4 class="price">$@y.Price</h4>
+                                                    <div class="button_group"><button class="button add-cart" type="button"><a href="/Cart/Add/@y.Id">Add To Cart</a></button><button class="button compare" type="button"><i class="fa fa-exchange"></i></button><button class="button wishlist" type="button"><i class="fa fa-heart-o"></i></button></div>
+                                                </div>
+                                            </div>
+
+                                        }
+
+                                    }
+                                </div>
+                            </li>
+
+
+
+                        }
+                    }
+                    
+
+
+
+                </ul>
+                }
+            </div>
+            <div class="clearfix"></div>
+
+        }
+
+        <div class="clearfix"></div>
+        <div class="our-brand">
+            <h3 class="title"><strong>Our </strong> Brands</h3>
+            <div class="control"><a id="prev_brand" class="prev" href="#">&lt;</a><a id="next_brand" class="next" href="#">&gt;</a></div>
+             <ul id="braldLogo">
+                @{
+                    var get_tag = GetTag();
+                    var so_list_tag = get_tag.Count() /5;
+                }
+                @if (so_list_tag > 0)
+                {
+                    @for (int i = 0; i <=so_list_tag; i++)
+                    {
+                        <li>
+                            <ul class="brand_item">
+                          
+                                @for (int j=0;j< 5; j++)
+                                {
+                               
+                                    var vitri = i * 5 + j;
+                                    
+                                    @if(vitri< get_tag.Count)
+                                    {
+                                        var y = get_tag[vitri];
+                                        <li>
+                                            <a href="/Product/Tags/@y.Id">
+                                                <div class="brand-logo"><img src="~/Upload/Tags/@y.Photo" alt="@y.Name"></div>
+                                            </a>
+                                        </li>
+                                    }
+                                
+                                   
+                                }
+                            </ul>
+                                
+                                
+                            
+                        </li>
+                    }
+                }
+                else
+                {
+                    <li>
+                        <ul class="brand_item">
+                            @foreach(var get_list_tag in get_tag)
+                            {
+                                <li>
+                                    <a href="/Product/Tags/@get_list_tag.Id">
+                                        <div class="brand-logo"><img src="~/Upload/Tags/@get_list_tag.Photo" alt=""></div>
+                                    </a>
+                                </li>
+                            }
+                        </ul>
+                    </li>
+                }
+
+                
+            </ul> 
+        </div>
+
+
+        
+        
+    </div>
+</div>
+<div class="clearfix"></div>
+<!-- / MAIN -->

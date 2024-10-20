@@ -1,0 +1,102 @@
+﻿@{
+    //import file Layout.cshtml vào đây
+    Layout = "~/Areas/Admin/Views/Shared/Layout.cshtml";
+}
+@{
+    string _Name = Model != null ? Model.Name : "";
+    string _Description = Model != null ? Model.Description : "";
+    string _Content = Model != null ? Model.Description : "";
+    int _Hot = Model != null ? Model.Hot : 0;
+    string _Photo = Model != null ? Model.Photo : "";
+}
+@using project_ca_nhan.Models
+
+@* muốn load ckeditor thì phải khai bảo dòng dưới *@
+<script src="https://cdn.ckeditor.com/ckeditor5/41.2.1/classic/ckeditor.js"></script>
+@*select2 :
+
+*@
+<div class="col-md-12">
+    <div class="panel panel-primary">
+        <div class="panel-heading">Create update</div>
+        <div class="panel-body">
+            <!-- Chú ý: muốn upload được file thì phải có thuộc tính enctype="multipart/form-data" -->
+            <form method="post" enctype="multipart/form-data" action="@ViewBag.action">
+                <!-- rows -->
+                <div class="row" style="margin-top:5px;">
+                    <div class="col-md-2">Name</div>
+                    <div class="col-md-10">
+                        <input type="text" value="@_Name" name="Name" class="form-control" required>
+                    </div>
+                </div>
+                <!-- end rows -->
+                <!-- rows -->
+               
+                <!-- end rows -->
+                <!-- rows -->
+                <div class="row" style="margin-top:5px;">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-10">
+                        @{
+                            string str_checked_hot = _Hot == 1 ? "checked" : "";
+                        }
+                        <input type="checkbox" @str_checked_hot name="Hot" id="Hot"> <label for="Hot">Sản phẩm nổi bật</label>
+                    </div>
+                </div>
+                <!-- end rows -->
+                <!-- rows -->
+               
+                <!-- end rows -->
+                <!-- rows -->
+                <div class="row" style="margin-top:5px;">
+                    <div class="col-md-2">Photo</div>
+                    <div class="col-md-10">
+                        <input type="file" name="Photo">
+                    </div>
+                </div>
+                <!-- end rows -->
+                <!-- rows -->
+                <div class="row" style="margin-top:5px;">
+                    <div class="col-md-2">Description</div>
+                    <div class="col-md-10">
+                        <textarea name="Description" id="Description">@_Description</textarea>
+                        <script>
+                            ClassicEditor
+                                .create(document.querySelector('#Description'))
+                                .catch(error => {
+                                    console.error(error);
+                                });
+                            </script>
+
+                    </div>
+                </div>
+        
+                <!-- end rows -->
+                <!-- rows -->
+
+                <div class="row" style="margin-top:5px;">
+                    <div class="col-md-2">Content</div>
+                    <div class="col-md-10">
+                        <textarea name="Content" id="Content">@_Content</textarea>
+                        <script>
+                            ClassicEditor
+                                .create(document.querySelector('#Content'))
+                                .catch(error => {
+                                    console.error(error);
+                                });
+                        </script>
+                    </div>
+                </div>
+                <!-- end rows -->
+                <!-- rows -->
+                <div class="row" style="margin-top:5px;">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-10">
+                        <input type="submit" value="Process" class="btn btn-primary">
+                    </div>
+                </div>
+                <!-- end rows -->
+            </form>
+        </div>
+    </div>
+</div>

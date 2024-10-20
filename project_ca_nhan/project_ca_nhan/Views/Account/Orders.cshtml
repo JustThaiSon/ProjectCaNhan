@@ -1,0 +1,71 @@
+﻿@{
+    Layout = "/Views/Shared/LayoutTrangChu.cshtml";
+}
+@using project_ca_nhan.Models
+@functions {
+    public MyDbcontext db = new MyDbcontext();
+    public ItemCustomer GetCustomers(int _CustomerId)
+    {
+        //lay mot ban ghi
+        ItemCustomer record = db.Customers.Where(item => item.Id == _CustomerId).FirstOrDefault();
+        return record != null ? record : new ItemCustomer();
+    }
+}
+
+<div class="col-md-12" style="margin-top:20px;">
+    <div class="panel panel-primary">
+        <div class="panel-heading">List orders</div>
+        <div class="panel-body">
+            <table class="table table-bordered table-hover">
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Phone</th>
+                    <th>Created</th>
+                    <th>Price</th>
+                    <th>Status</th>
+                    <th style="width:150px;"></th>
+                </tr>
+                @foreach (var item in Model)
+                {
+                    ItemCustomer recordCustomer = GetCustomers(item.CustomerId);
+                    <tr>
+                        <td>@recordCustomer.Name</td>
+                        <td>@recordCustomer.Address</td>
+                        <td>@recordCustomer.Phone</td>
+                        <td>@item.Create.ToString("ddMMyyyy")</td>
+                        <td>@string.Format("{0:#,#.}", item.Price)</td>
+                        <td>
+                            @if (item.Status == 2)
+                            {
+                                <text><label class="label label-warning">Đã hủy đơn hàng</label></text>
+                            }
+                            @if (item.Status == 1)
+                            {
+                                <text><label class="label label-danger">Đã giao hàng</label></text>
+                            }
+                            @if (item.Status == 0)
+                            {
+                                <text><label class="label label-primary">Chưa giao hàng</label></text>
+                            }
+                        </td>
+                        <td style="text-align:center;">
+                            <a href="/Account/OrderDetail/@item.Id">Chi tiết</a>
+                            &nbsp;&nbsp;
+                            @if (item.Status == 0)
+                            {
+                                <text><a href="/Account/CancelOrder/@item.Id">Hủy đơn</a></text>
+                            }
+                        </td>
+                    </tr>
+                }
+            </table>
+            <style type="text/css">
+                .pagination {
+                    padding: 0px;
+                    margin: 0px;
+                }
+            </style>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,54 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/Layout.cshtml";
+}
+
+@* cho viec su dung select de dang hon cho dong duoi *@
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+@using project_ca_nhan.Models
+@using X.PagedList.Mvc.Core
+@functions {
+    public MyDbcontext db = new MyDbcontext();
+    
+    
+}
+<script src="https://cdn.ckeditor.com/ckeditor5/41.2.1/classic/ckeditor.js"></script>
+<div class="col-md-12">
+    <div class="panel panel-primary">
+        <div class="panel-heading">Thông Tin Của Người Dùng : @Model.Name</div>
+        <div class="panel-body">
+            <table class="table table-bordered table-hover">
+                <tr>
+                    <th style="width: 100px">Tên Người Phản Hồi</th>
+                    <th style="width: 100px">Email</th>
+                    <th style="width: 200px">Địa Chỉ</th>
+                    <th style="width: 100px">Phone</th>
+                    <th style="width:100px;"></th>
+                </tr>
+                    <tr>
+                        <td>
+                            @Model.Name
+                           
+                        </td>
+                         <td>
+                           @Model.Email
+                        </td>
+                        <td>
+                            @Model.Address
+                        </td>
+                        <td>@Model.Phone</td>
+                        <td>
+                            <a href="/Admin/Respond/RespondAdmin/@Model.Id" onclick="return window.confirm('Are you sure?');">Phản Hồi</a>
+                        </td>
+                    </tr>
+            </table>
+            <style type="text/css">
+                .pagination {
+                    padding: 0px;
+                    margin: 0px;
+                }
+            </style>
+           
+        </div>
+    </div>
+</div>

@@ -1,0 +1,74 @@
+﻿@{
+    //import file Layout.cshtml vào đây
+    Layout = "~/Areas/Admin/Views/Shared/Layout.cshtml";
+}
+@{
+    string _Name = Model != null ? Model["Name"] : "";
+    int _ParentId = Model != null ? Convert.ToInt32(Model["ParentId"]) : 0;
+    int _DisplayHomePage = Model != null ? Convert.ToInt32(Model["DisplayHomePage"]) : 0;
+}
+@using project_ca_nhan.Models
+@functions {
+    //để sử dụng EntityFramework thì cần khai báo đối tượng sau
+    public MyDbcontext db = new MyDbcontext();
+    //lấy các danh mục con tương ứng với Id của danh mục cha
+    public List<ItemCategory> GetCategories()
+    {
+        List<ItemCategory> list_categories = db.Categories.Where(item=>item.ParentId == 0).ToList();
+        return list_categories;
+    }
+}
+<div class="col-md-12">
+    <div class="panel panel-primary">
+        <div class="panel-heading">Create update</div>
+        <div class="panel-body">
+            <form method="post" action="@ViewBag.action">
+                <!-- rows -->
+                <div class="row" style="margin-top:5px;">
+                    <div class="col-md-2">Name</div>
+                    <div class="col-md-10">
+                        <input type="text" value="@_Name" name="Name" class="form-control" required>
+                    </div>
+                </div>
+                <!-- end rows -->
+                <!-- rows -->
+                <div class="row" style="margin-top:5px;">
+                    <div class="col-md-2">Parent</div>
+                    <div class="col-md-10">
+                        @{
+                            var list_categories = GetCategories();
+                        }
+                        <select name="ParentId" class="form-control" style="width:200px;">
+                            <option value="0"></option>
+                            @foreach(var item in list_categories)
+                            {
+                                string str_selected = Model != null && Convert.ToInt32(Model["ParentId"]) == item.Id ? "selected" : "";
+                                <option @str_selected value="@item.Id">@item.Name</option>
+                            }
+                        </select>
+                    </div>
+                </div>
+                <!-- end rows -->    
+                <!-- rows -->
+                <div class="row" style="margin-top:5px;">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-10">
+                        @{
+                            string str_checked = Model != null && Convert.ToInt32(Model["DisplayHomePage"]) == 1 ? "checked" : "";
+                        }
+                        <input type="checkbox" @str_checked name="DisplayHomePage" id="DisplayHomePage" /> <label for="DisplayHomePage">Display Home Page</label>
+                    </div>
+                </div>
+                <!-- end rows -->
+                <!-- rows -->
+                <div class="row" style="margin-top:5px;">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-10">
+                        <input type="submit" value="Process" class="btn btn-primary">
+                    </div>
+                </div>
+                <!-- end rows -->
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,302 @@
+﻿@{
+    //load file Layout.cshtml vao day
+    Layout = "~/Views/Shared/LayoutTrangChu.cshtml";
+}
+@using project_ca_nhan.Models
+@using System.IO
+@functions {
+    public MyDbcontext db = new MyDbcontext();
+    public ItemCustomer GetCustomers(int _CustomerId)
+    {
+        //lay mot ban ghi
+        ItemCustomer record = db.Customers.Where(item => item.Id == _CustomerId).FirstOrDefault();
+        return record != null ? record : new ItemCustomer();
+    }
+    public ItemOrder GetOrders(int _OrderId)
+    {
+        //lay mot ban ghi
+        ItemOrder record = db.Orders.Where(item => item.Id == _OrderId).FirstOrDefault();
+        return record != null ? record : new ItemOrder();
+    }
+    public ItemProduct GetProducts(int _ProductId)
+    {
+        //lay mot ban ghi
+        ItemProduct record = db.Products.Where(item => item.Id == _ProductId).FirstOrDefault();
+        return record != null ? record : new ItemProduct();
+    }
+}
+<div class="col-md-12" style="margin-top:20px;">
+    @{
+        ItemOrder recordOrders = GetOrders(ViewBag.OrderId);
+    }
+    <div style="margin-bottom:10px;">
+        <a href="/Account/Orders" class="btn btn-danger">Quay lại</a>&nbsp;&nbsp;
+    </div>
+    <div class="panel panel-primary">
+        <div class="panel-heading">Order detail</div>
+        <div class="panel-body">
+            <table class="table table-bordered table-hover">
+                <tr>
+                    <th style="width:100px;">Photo</th>
+                    <th>Name</th>
+                    <th style="width:100px;">Price</th>
+                    <th style="width:100px;">Quantity</th>
+                </tr>
+                @foreach (var item in Model)
+                {
+                    ItemProduct recordProducts = GetProducts(item.ProductId);
+                    <tr>
+                        <td>
+                            @if (recordProducts.Photo != null && File.Exists(Directory.GetCurrentDirectory() + "\\wwwroot\\Upload\\Products\\" + recordProducts.Photo))
+                            {
+                                <img src="~/Upload/Products/@recordProducts.Photo" style="width:100px;" />
+                            }
+                        </td>
+                        <td>@recordProducts.Name</td>
+                        <td>@string.Format("{0:#,#.}", (recordProducts.Price * recordProducts.Discount) / 100) đ</td>
+                        <td style="text-align:center;">@item.Quantity</td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+</div>
+
+
+@* @{
+    Layout = "~/Views/Shared/LayoutTrangTrong.cshtml";
+}
+@using project_ca_nhan.Models
+@using X.PagedList.Mvc.Core
+@model X.PagedList.IPagedList<ItemProduct>
+@functions {
+    public MyDbcontext db = new MyDbcontext();
+    public List<ItemSlide> get_slide()
+    {
+        List<ItemSlide> x = db.Slides.OrderByDescending(s => s.Id).ToList();
+        return x;
+    }
+
+   
+
+}
+<div class="col-md-9">
+    <div class="bannerslide" id="bannerslide">
+        @{
+            var list_slide = get_slide();
+        }
+
+        <ul class="slides">
+            @foreach (var slide in list_slide)
+            {
+                <li>
+                    <a href="#">
+                        <img src="~/Upload/Slides/@slide.Photo" alt="" style="height: 350px" />
+                    </a>
+                </li>
+            }
+
+
+        </ul>
+    </div>
+    <div class="clearfix">
+    </div>
+   
+    <div class="products-list">
+        <div class="toolbar">
+            <div class="sorter">
+                <div class="view-mode">
+                    <a href="#" class="list active">
+                        List
+                    </a>
+                    <a href="productgird.html" class="grid">
+                        Grid
+                    </a>
+                </div>
+
+                <div class="sort-by">
+                    Sort by:
+                    <select class="use-chosen" id="orderby" onchange="location.href='/Account/OrderDetail/@ViewBag.OrderId?orderby=' + this.value">
+                        <option value="Default" @(ViewBag.orderby == "Default" ? "selected" : "")>Default</option>
+                        <option value="Name-asc" @(ViewBag.orderby == "Name-asc" ? "selected" : "")>Tên Tăng Dần</option>
+                        <option value="Name-desc" @(ViewBag.orderby == "Name-desc" ? "selected" : "")>Tên Giảm Dần</option>
+                        <option value="Price-asc" @(ViewBag.orderby == "Price-asc" ? "selected" : "")>Giá Tăng Dần</option>
+                        <option value="Price-desc" @(ViewBag.orderby == "Price-desc" ? "selected" : "")>Giá Giảm Dần</option>
+                    </select>
+                </div>
+                <div class="limiter">
+                    Show :
+                    <select class="use-chosen" id="getnumber" onchange="location.href='/Account/OrderDetail/@ViewBag.OrderId?getnumber='+this.value">
+                        <option value="3" @if (ViewBag.getnumber == "3")
+                        {
+                            <text>selected</text>
+                        }
+                        >
+                            3
+                        </option>
+                        <option value="6" @if (ViewBag.getnumber == "6")
+                        {
+                            <text>selected</text>
+                        }
+                        >
+                            6
+                        </option>
+                        <option value="9" @if (ViewBag.getnumber == "9")
+                        {
+                            <text>selected</text>
+                        }
+                        >
+                            9
+                        </option>
+                        <option value="12" @if (ViewBag.getnumber == "12")
+                        {
+                            <text>selected</text>
+                        }
+                        >
+                            12
+                        </option>
+                    </select>
+                </div>
+            </div>
+            <div class="wrap-pagination-info">
+                <ul class="page-numbers" style="display: flex">
+                    <li>Trang</li>
+                    &nbsp; &nbsp;
+                    @for (int i = 1; i <= Model.PageCount; i++)
+                    {
+                        string str_current = (i == Model.PageNumber) ? "current" : "";
+                        <li style="padding-right: 50px"> <span class="page-number-item @str_current"><a href="/Account/OrderDetail/@ViewBag.OrderId?page=@i"> @i</a></span></li>
+                    }
+                </ul>
+            </div>
+        </div>
+        <ul class="products-listItem">
+            @foreach (var a in Model)
+            {
+
+                <li class="products">
+                    <div class="offer">
+                        Sale @a.Discount%
+                    </div>
+                    <div class="thumbnail">
+                        <a href="/Product/Detail/@a.Id">
+                            <img src="~/Upload/Products/@a.Photo" alt="@a.Name">
+                        </a>
+                    </div>
+                    <div class="product-list-description">
+                        <div class="productname">
+                            <a style="text-decoration: none;" href="/Product/Detail/@a.Id">@a.Name</a>
+                        </div>
+                        <p>
+                            <img src="images/star.png" alt="">
+                            <a href="#" class="review_num">
+                                02 Review(s)
+                            </a>
+                        </p>
+                        <p>
+                            @Html.Raw(a.Description)
+                        </p>
+                        <div class="list_bottom">
+                            <div class="price">
+                                <span class="new_price">
+                                    @(a.Price - (a.Price * a.Discount) / 100)
+                                    <sup>
+                                        $
+                                    </sup>
+                                </span>
+                                <span class="old_price">
+                                    @a.Price
+                                    <sup>
+                                        $
+                                    </sup>
+                                </span>
+                            </div>
+                            <div class="button_group">
+                                <button class="button">
+                                    <a href="/Cart/Add/@a.Id">Add To Cart</a>
+                                </button>
+                                <button class="button compare">
+                                    <i class="fa fa-exchange">
+                                    </i>
+                                </button>
+                                <button class="button favorite">
+                                    <i class="fa fa-heart-o">
+                                    </i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+            }
+
+        </ul>
+        <div class="toolbar">
+            <div class="sorter bottom">
+                <div class="view-mode">
+                    <a href="#" class="list active">
+                        List
+                    </a>
+                    <a href="productgird.html" class="grid">
+                        Grid
+                    </a>
+                </div>
+                <div class="sort-by">
+                    Sort by:
+                    <select class="use-chosen" id="orderby" onchange="location.href='/Account/OrderDetail/@ViewBag.OrderId?orderby=' + this.value">
+                        <option value="Default" @(ViewBag.orderby == "Default" ? "selected" : "")>Default</option>
+                        <option value="Name-asc" @(ViewBag.orderby == "Name-asc" ? "selected" : "")>Tên Tăng Dần</option>
+                        <option value="Name-desc" @(ViewBag.orderby == "Name-desc" ? "selected" : "")>Tên Giảm Dần</option>
+                        <option value="Price-asc" @(ViewBag.orderby == "Price-asc" ? "selected" : "")>Giá Tăng Dần</option>
+                        <option value="Price-desc" @(ViewBag.orderby == "Price-desc" ? "selected" : "")>Giá Giảm Dần</option>
+                    </select>
+                </div>
+
+                <div class="limiter">
+                    Show :
+                    <select class="use-chosen" id="getnumber" onchange="location.href='/Account/OrderDetail/@ViewBag.OrderId?getnumber='+this.value">
+                        <option value="3" @if (ViewBag.getnumber == "3")
+                        {
+                            <text>selected</text>
+                        }
+                        >
+                            3
+                        </option>
+                        <option value="6" @if (ViewBag.getnumber == "6")
+                        {
+                            <text>selected</text>
+                        }
+                        >
+                            6
+                        </option>
+                        <option value="9" @if (ViewBag.getnumber == "9")
+                        {
+                            <text>selected</text>
+                        }
+                        >
+                            9
+                        </option>
+                        <option value="12" @if (ViewBag.getnumber == "12")
+                        {
+                            <text>selected</text>
+                        }
+                        >
+                            12
+                        </option>
+                    </select>
+                </div>
+            </div>
+            <div class="wrap-pagination-info">
+                <ul class="page-numbers" style="display: flex">
+                    <li>Trang</li>
+                    &nbsp; &nbsp;
+                    @for (int i = 1; i <= Model.PageCount; i++)
+                    {
+                        string str_current = (i == Model.PageNumber) ? "current" : "";
+                        <li style="padding-right: 50px"> <span class="page-number-item @str_current"><a href="/Account/OrderDetail/@ViewBag.OrderId?page=@i"> @i</a></span></li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+</div> *@

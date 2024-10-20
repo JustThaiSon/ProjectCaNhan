@@ -1,0 +1,54 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/Layout.cshtml";
+}           
+@using project_ca_nhan.Models
+@using X.PagedList.Mvc.Core
+@model X.PagedList.IPagedList<ItemUsers>
+<div class="col-md-12">
+                        <div style="margin-bottom:5px;">
+                            <a href="/Admin/Users/Create" class="btn btn-primary">Add</a>
+                        </div>
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">List User</div>
+                            <div class="panel-body">
+                                <table class="table table-bordered table-hover">
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Email</th>
+                    <th>decentralization</th>
+                                        <th style="width:100px;"></th>
+                                    </tr>
+                @foreach(var row in Model)
+                {
+                    <tr>
+                        <td>@row.Name</td>
+                        <td>@row.Email</td>
+                        <td>@if(row.Status == 0)
+                            {
+                                <span>Cộng Tác Viên</span>
+                            }
+                            @if(row.Status == 1)
+                            {
+                                <span>Admin Phụ</span>
+                            }
+                            @if(row.Status == 2)
+                            {
+                                <span>Admin Chính</span>
+                            }
+                        </td>
+                        <td style="text-align:center;">
+                            <a href="/Admin/Users/Update/@row.Id">Edit</a>&nbsp;
+                            <a href="/Admin/Users/Delete/@row.Id" onclick="return window.confirm('Bạn có muốn xóa không?');">Delete</a>
+                        </td>
+                    </tr>
+                }
+               
+                </table>
+                <style type="text/css">
+                                    .pagination{padding:0px; margin:0px;}
+                                </style>
+
+                @Html.PagedListPager(Model,page => Url.Action("Read",new{page=page,a=1,b=2,c=3}))
+                            </div>
+                        </div>
+                    </div>

@@ -1,0 +1,22 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/Layout.cshtml";
+}
+<form action="@ViewBag.action" method="post" enctype="multipart/form-data">
+    @Html.AntiForgeryToken()
+    <div class="pass-wrap">
+        <div class="form-row">
+            <label class="lebel-abs">
+                Number
+                <strong class="red">
+                    *
+                </strong>
+            </label>
+            <input id="mxn" type="number" placeholder="Nhập 6 Chữ Số Từ Email Của Bạn" class="input namefild" name="Number" patter="[0-9]{6}">
+        </div>
+
+    </div>
+    <button>
+        Xac Nhan
+    </button>
+    <p>@ViewBag.Err</p>
+</form>

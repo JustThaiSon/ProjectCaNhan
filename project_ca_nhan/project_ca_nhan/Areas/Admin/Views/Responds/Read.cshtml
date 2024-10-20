@@ -1,0 +1,63 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/Layout.cshtml";
+}
+@using project_ca_nhan.Models
+@using X.PagedList.Mvc.Core;
+@functions{
+    public MyDbcontext db = new MyDbcontext();
+    public string getname(int _id){
+        ItemCustomer k = db.Customers.Where(s => s.Id == _id).FirstOrDefault();
+        return k != null ? k.Name : "Không tìm thấy Name Người Dùng";
+    }
+}
+@model X.PagedList.IPagedList<ItemRespond>
+
+<div class="col-md-12">
+    <div style="margin-bottom:5px;">
+        <a href="/Admin/Responds/Create" class="btn btn-primary">Add user</a>
+    </div>
+    <div class="panel panel-primary">
+        <div class="panel-heading">List User</div>
+        <div class="panel-body">
+            <table class="table table-bordered table-hover">
+                <tr>
+                    <th style="width: 100px">Teen Khach Hang</th>
+                    <th style="width: 200px">Loi Phan Hoi</th>
+                    <th style="width: 100px">Date</th>
+                    <th style="width:100px;"></th>
+                </tr>
+                @foreach (var row in Model)
+                {
+                    <tr>
+                        <td>
+                        @getname(row.CustomerId)
+                        </td>
+                        <td>@row.Message</td>
+
+
+                        <td style="text-align:center;">
+                            @row.Date
+
+
+                        </td>
+                        <td>
+                            <a href="/Admin/Responds/Update/@row.Id">Update</a>&nbsp;
+                            <a href="/Admin/Responds/Delete/@row.Id" onclick="return window.confirm('Are you sure?');">Delete</a>
+                            <a href="/Admin/Responds/ChiTiet/@row.CustomerId">Chi Tiet</a>
+                        </td>
+                    </tr>
+                }
+            </table>
+            <style type="text/css">
+                .pagination {
+                    padding: 0px;
+                    margin: 0px;
+                }
+            </style>
+            @*phan trang bang tay*@
+            @*So trang: @Model.PageCount /
+            Trang hien tai: @Model.PageNumber*@
+            @Html.PagedListPager(Model, page => Url.Action("Read", new { page = page, a = 1, b = 2 }))
+        </div>
+    </div>
+</div>
