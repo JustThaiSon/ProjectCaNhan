@@ -17,183 +17,183 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = project_ca_nhan
 build_property.RootNamespace = project_ca_nhan
-build_property.ProjectDir = G:\FPL\Clone\project_ca_nhan\project_ca_nhan\
+build_property.ProjectDir = G:\FPL\Project\ProjectCaNhan\project_ca_nhan\project_ca_nhan\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = G:\FPL\Clone\project_ca_nhan\project_ca_nhan
+build_property.MSBuildProjectDirectory = G:\FPL\Project\ProjectCaNhan\project_ca_nhan\project_ca_nhan
 build_property._RazorSourceGeneratorDebug = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Account/login.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Account/login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudFxsb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Adv/CreateUpdate.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Adv/CreateUpdate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWR2XENyZWF0ZVVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Adv/Read.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Adv/Read.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWR2XFJlYWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Categories/CreateUpdate.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Categories/CreateUpdate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmllc1xDcmVhdGVVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Categories/Read.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Categories/Read.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmllc1xSZWFkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Error/Index.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Error/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRXJyb3JcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Home/Index.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/News/CreateUpdate.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/News/CreateUpdate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmV3c1xDcmVhdGVVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/News/Read.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/News/Read.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmV3c1xSZWFkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Products/CreateUpdate.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Products/CreateUpdate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdHNcQ3JlYXRlVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Products/Read.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Products/Read.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdHNcUmVhZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Responds/CreateUpdate.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Responds/CreateUpdate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUmVzcG9uZHNcQ3JlYXRlVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Responds/Read.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Responds/Read.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUmVzcG9uZHNcUmVhZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Responds/ThongTinChiTiet.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Responds/ThongTinChiTiet.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUmVzcG9uZHNcVGhvbmdUaW5DaGlUaWV0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Shared/Layout.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Shared/Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXExheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Slides/CreateUpdate.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Slides/CreateUpdate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVzXENyZWF0ZVVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Slides/Read.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Slides/Read.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVzXFJlYWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Tags/CreateUpdate.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Tags/CreateUpdate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFnc1xDcmVhdGVVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Tags/Read.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Tags/Read.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFnc1xSZWFkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Users/CreateUpdate.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Users/CreateUpdate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlcnNcQ3JlYXRlVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Users/Read.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Users/Read.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlcnNcUmVhZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Users/SendMail.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Areas/Admin/Views/Users/SendMail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlcnNcU2VuZE1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Views/Account/EditProfile.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Views/Account/EditProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxFZGl0UHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Views/Account/Login.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Views/Account/OrderDetail.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Views/Account/OrderDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxPcmRlckRldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Views/Account/Orders.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Views/Account/Orders.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxPcmRlcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Views/Account/Register.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Views/Account/SendMail.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Views/Account/SendMail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTZW5kTWFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Views/Cart/Read.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Views/Cart/Read.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxSZWFkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Views/Contact/Contact.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Views/Contact/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Views/Contact/RespondSuccess.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Views/Contact/RespondSuccess.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxSZXNwb25kU3VjY2Vzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Views/Home/Index.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Views/Product/Categories.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Views/Product/Categories.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDYXRlZ29yaWVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Views/Product/Detail.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Views/Product/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Views/Product/Men.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Views/Product/Men.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxNZW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Views/Product/SearchCategires.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Views/Product/SearchCategires.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxTZWFyY2hDYXRlZ2lyZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Views/Product/SearchName.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Views/Product/SearchName.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxTZWFyY2hOYW1lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Views/Product/SearchPrice.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Views/Product/SearchPrice.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxTZWFyY2hQcmljZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Views/Product/Tags.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Views/Product/Tags.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxUYWdzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Views/Product/Women.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Views/Product/Women.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxXb21lbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Views/Shared/Header.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Views/Shared/Header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEhlYWRlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Views/Shared/LayoutTrangChu.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Views/Shared/LayoutTrangChu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExheW91dFRyYW5nQ2h1LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/FPL/Clone/project_ca_nhan/project_ca_nhan/Views/Shared/LayoutTrangTrong.cshtml]
+[G:/FPL/Project/ProjectCaNhan/project_ca_nhan/project_ca_nhan/Views/Shared/LayoutTrangTrong.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExheW91dFRyYW5nVHJvbmcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

@@ -12,7 +12,6 @@ namespace project_ca_nhan.Models
             string strConnectionString = config.GetConnectionString("MyConnectionString");
             optionsBuilder.UseSqlServer(strConnectionString);
         }
-        // dong nay de lam ket noi csdl Itemuser voi Users la bang CSDL
         public DbSet<ItemUsers> Users { get; set; }
         public DbSet<ItemCategory> Categories { get; set; }
         public DbSet<ItemAdv> Adv { get; set; }

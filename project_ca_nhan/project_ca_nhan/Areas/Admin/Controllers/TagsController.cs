@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-//thao tac voi IFormCollection
 using Microsoft.AspNetCore.Http;
 //doi tuong ma hoa password -> co the gan vao mot bien de su dung bien nay
 using BC = BCrypt.Net.BCrypt;
@@ -44,9 +43,7 @@ namespace project.Areas.Admin.Controllers
             //doi tuong SqlConnection, SqlDataAdapter, SqlCommand nam trong goi nuget: System.Data
             using (SqlConnection conn = new SqlConnection(strMyConnectionString))
             {
-                //thuc hien truy van, tra ket qua ve object co ten la da
                 SqlDataAdapter da = new SqlDataAdapter("select * from Tags order by Id desc", conn);
-                //do du lieu tu da vao Data Table co ten dtTags
                 da.Fill(dtTags);
             }
             //---

@@ -130,7 +130,7 @@ namespace project_ca_nhan.Areas.Admin.Controllers
                             <p>Xin Vui Lòng Nhập 6 số Dưới Đây Để Hoàn Tất Chương Trình Đăng Kí Của Bạn</p>
                             <p><strong> {random}</strong></p>
 <p>Xin Vui Lòng Liên Hệ Lại Với Admin Chính Của Hệ Thống , nếu có bất kì thắc mắc nào</p>
-                            <p><strong>Contact:  Email: vutung88889@gmail.com Phone: 0941208572</strong></p>
+                            <p><strong>Contact:  Email: hoangthaisonqs@gmail.com Phone: 0941208572</strong></p>
                             </body>
 
                         </html>

@@ -1,0 +1,2209 @@
+{
+  "Files": [
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\css\\animate.css\\css\\animate.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\animate.css\\css\\animate.css"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\css\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\css\\jquery.mCustomScrollbar.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\jquery.mCustomScrollbar.css"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\css\\morris.js\\css\\morris.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\morris.js\\css\\morris.css"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\css\\style.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\style.css"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\icon\\icofont\\css\\icofont.css",
+      "PackagePath": "staticwebassets\\Admin\\icon\\icofont\\css\\icofont.css"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\icon\\icofont\\fonts\\icofont.eot",
+      "PackagePath": "staticwebassets\\Admin\\icon\\icofont\\fonts\\icofont.eot"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\icon\\icofont\\fonts\\icofont.svg",
+      "PackagePath": "staticwebassets\\Admin\\icon\\icofont\\fonts\\icofont.svg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\icon\\icofont\\fonts\\icofont.ttf",
+      "PackagePath": "staticwebassets\\Admin\\icon\\icofont\\fonts\\icofont.ttf"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\icon\\icofont\\fonts\\icofont.woff",
+      "PackagePath": "staticwebassets\\Admin\\icon\\icofont\\fonts\\icofont.woff"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\icon\\themify-icons\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\Admin\\icon\\themify-icons\\fonts\\themify.eot"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\icon\\themify-icons\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\Admin\\icon\\themify-icons\\fonts\\themify.svg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\icon\\themify-icons\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\Admin\\icon\\themify-icons\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\icon\\themify-icons\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\Admin\\icon\\themify-icons\\fonts\\themify.woff"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\icon\\themify-icons\\themify-icons.css",
+      "PackagePath": "staticwebassets\\Admin\\icon\\themify-icons\\themify-icons.css"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\images\\auth\\Logo-small-bottom.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\auth\\Logo-small-bottom.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\images\\auth\\logo-dark.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\auth\\logo-dark.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\images\\auth\\logo.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\auth\\logo.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\images\\avatar-1.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\avatar-1.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\images\\avatar-2.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\avatar-2.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\images\\avatar-3.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\avatar-3.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\images\\avatar-4.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\avatar-4.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\images\\bg.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\bg.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\Admin\\images\\favicon.ico"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\images\\flags\\ENGLISH.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\flags\\ENGLISH.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\images\\flags\\FRANCE.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\flags\\FRANCE.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\images\\flags\\PORTO.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\flags\\PORTO.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\images\\flags\\SPAIN.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\flags\\SPAIN.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\images\\logo.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\logo.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\images\\mega-menu\\01.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\mega-menu\\01.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\images\\mega-menu\\02.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\mega-menu\\02.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\images\\mega-menu\\03.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\mega-menu\\03.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\images\\mega-menu\\04.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\mega-menu\\04.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\images\\mega-menu\\05.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\mega-menu\\05.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\images\\mega-menu\\06.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\mega-menu\\06.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\images\\pattern2.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\pattern2.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\images\\user.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\user.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\js\\SmoothScroll.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\SmoothScroll.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\js\\bootstrap-growl.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\bootstrap-growl.min.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\js\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\js\\classie.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\classie.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\js\\classie\\classie.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\classie\\classie.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\js\\common-pages.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\common-pages.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\js\\demo-12.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\demo-12.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\js\\jquery-slimscroll\\jquery.slimscroll.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\jquery-slimscroll\\jquery.slimscroll.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\js\\jquery-ui\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\jquery-ui\\jquery-ui.min.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\js\\jquery.mCustomScrollbar.concat.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\jquery.mCustomScrollbar.concat.min.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\js\\jquery.mousewheel.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\jquery.mousewheel.min.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\js\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\js\\modernizr\\css-scrollbars.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\modernizr\\css-scrollbars.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\js\\modernizr\\modernizr.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\modernizr\\modernizr.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\js\\morris.js\\morris.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\morris.js\\morris.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\js\\pcoded.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\pcoded.min.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\js\\popper.js\\popper.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\popper.js\\popper.min.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\js\\raphael\\raphael.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\raphael\\raphael.min.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\js\\script.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\script.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\js\\script.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\script.min.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\pages\\accordion\\accordion.js",
+      "PackagePath": "staticwebassets\\Admin\\pages\\accordion\\accordion.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\pages\\accordion\\accordion.min.js",
+      "PackagePath": "staticwebassets\\Admin\\pages\\accordion\\accordion.min.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\pages\\chart\\morris\\morris-custom-chart.js",
+      "PackagePath": "staticwebassets\\Admin\\pages\\chart\\morris\\morris-custom-chart.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\pages\\dashboard\\amchart\\css\\amchart.css",
+      "PackagePath": "staticwebassets\\Admin\\pages\\dashboard\\amchart\\css\\amchart.css"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\pages\\dashboard\\amchart\\css\\export.css",
+      "PackagePath": "staticwebassets\\Admin\\pages\\dashboard\\amchart\\css\\export.css"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\pages\\dashboard\\amchart\\js\\amcharts.js",
+      "PackagePath": "staticwebassets\\Admin\\pages\\dashboard\\amchart\\js\\amcharts.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\pages\\dashboard\\amchart\\js\\custom-amchart.js",
+      "PackagePath": "staticwebassets\\Admin\\pages\\dashboard\\amchart\\js\\custom-amchart.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\pages\\dashboard\\amchart\\js\\export.min.js",
+      "PackagePath": "staticwebassets\\Admin\\pages\\dashboard\\amchart\\js\\export.min.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\pages\\dashboard\\amchart\\js\\images\\dragIconRoundBig.svg",
+      "PackagePath": "staticwebassets\\Admin\\pages\\dashboard\\amchart\\js\\images\\dragIconRoundBig.svg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\pages\\dashboard\\amchart\\js\\images\\dragIconRoundBigH.svg",
+      "PackagePath": "staticwebassets\\Admin\\pages\\dashboard\\amchart\\js\\images\\dragIconRoundBigH.svg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\pages\\dashboard\\amchart\\js\\light.js",
+      "PackagePath": "staticwebassets\\Admin\\pages\\dashboard\\amchart\\js\\light.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\pages\\dashboard\\amchart\\js\\serial.js",
+      "PackagePath": "staticwebassets\\Admin\\pages\\dashboard\\amchart\\js\\serial.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\pages\\dashboard\\custom-dashboard.js",
+      "PackagePath": "staticwebassets\\Admin\\pages\\dashboard\\custom-dashboard.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\pages\\google-maps\\gmaps.min.js",
+      "PackagePath": "staticwebassets\\Admin\\pages\\google-maps\\gmaps.min.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\pages\\google-maps\\jquery.gmaps.js",
+      "PackagePath": "staticwebassets\\Admin\\pages\\google-maps\\jquery.gmaps.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\pages\\icon-modal.js",
+      "PackagePath": "staticwebassets\\Admin\\pages\\icon-modal.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\pages\\notification\\notification.css",
+      "PackagePath": "staticwebassets\\Admin\\pages\\notification\\notification.css"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\pages\\notification\\notification.js",
+      "PackagePath": "staticwebassets\\Admin\\pages\\notification\\notification.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\pages\\todo\\todo.js",
+      "PackagePath": "staticwebassets\\Admin\\pages\\todo\\todo.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\pages\\widget\\amchart\\amcharts.js",
+      "PackagePath": "staticwebassets\\Admin\\pages\\widget\\amchart\\amcharts.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\pages\\widget\\amchart\\amcharts.min.js",
+      "PackagePath": "staticwebassets\\Admin\\pages\\widget\\amchart\\amcharts.min.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\pages\\widget\\amchart\\ammap.js",
+      "PackagePath": "staticwebassets\\Admin\\pages\\widget\\amchart\\ammap.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\pages\\widget\\amchart\\ammap.min.js",
+      "PackagePath": "staticwebassets\\Admin\\pages\\widget\\amchart\\ammap.min.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\pages\\widget\\amchart\\continentsLow.js",
+      "PackagePath": "staticwebassets\\Admin\\pages\\widget\\amchart\\continentsLow.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\pages\\widget\\amchart\\continentsLow.min.js",
+      "PackagePath": "staticwebassets\\Admin\\pages\\widget\\amchart\\continentsLow.min.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\pages\\widget\\amchart\\gauge.js",
+      "PackagePath": "staticwebassets\\Admin\\pages\\widget\\amchart\\gauge.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\pages\\widget\\amchart\\gauge.min.js",
+      "PackagePath": "staticwebassets\\Admin\\pages\\widget\\amchart\\gauge.min.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\pages\\widget\\amchart\\light.js",
+      "PackagePath": "staticwebassets\\Admin\\pages\\widget\\amchart\\light.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\pages\\widget\\amchart\\light.min.js",
+      "PackagePath": "staticwebassets\\Admin\\pages\\widget\\amchart\\light.min.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\pages\\widget\\amchart\\pie.js",
+      "PackagePath": "staticwebassets\\Admin\\pages\\widget\\amchart\\pie.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\pages\\widget\\amchart\\pie.min.js",
+      "PackagePath": "staticwebassets\\Admin\\pages\\widget\\amchart\\pie.min.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\pages\\widget\\amchart\\serial.js",
+      "PackagePath": "staticwebassets\\Admin\\pages\\widget\\amchart\\serial.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\pages\\widget\\amchart\\serial.min.js",
+      "PackagePath": "staticwebassets\\Admin\\pages\\widget\\amchart\\serial.min.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\pages\\widget\\amchart\\worldLow.js",
+      "PackagePath": "staticwebassets\\Admin\\pages\\widget\\amchart\\worldLow.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Admin\\pages\\widget\\amchart\\worldLow.min.js",
+      "PackagePath": "staticwebassets\\Admin\\pages\\widget\\amchart\\worldLow.min.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\css\\animate.css",
+      "PackagePath": "staticwebassets\\Fontend\\css\\animate.css"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\Fontend\\css\\bootstrap.css"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Fontend\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\css\\chosen-sprite.png",
+      "PackagePath": "staticwebassets\\Fontend\\css\\chosen-sprite.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\css\\chosen-sprite@2x.png",
+      "PackagePath": "staticwebassets\\Fontend\\css\\chosen-sprite@2x.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\css\\chosen.min.css",
+      "PackagePath": "staticwebassets\\Fontend\\css\\chosen.min.css"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\css\\color-01.css",
+      "PackagePath": "staticwebassets\\Fontend\\css\\color-01.css"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\css\\color-02.css",
+      "PackagePath": "staticwebassets\\Fontend\\css\\color-02.css"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\css\\color-03.css",
+      "PackagePath": "staticwebassets\\Fontend\\css\\color-03.css"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\css\\flexslider.css",
+      "PackagePath": "staticwebassets\\Fontend\\css\\flexslider.css"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\Fontend\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\Fontend\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\css\\owl.video.play.html",
+      "PackagePath": "staticwebassets\\Fontend\\css\\owl.video.play.html"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\css\\sequence-looptheme.css",
+      "PackagePath": "staticwebassets\\Fontend\\css\\sequence-looptheme.css"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\css\\style.css",
+      "PackagePath": "staticwebassets\\Fontend\\css\\style.css"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\fonts\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\Fontend\\fonts\\Flaticon.eot"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\fonts\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\Fontend\\fonts\\Flaticon.svg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\fonts\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\Fontend\\fonts\\Flaticon.ttf"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\Fontend\\fonts\\Flaticon.woff"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\fonts\\Flaticond41d.eot",
+      "PackagePath": "staticwebassets\\Fontend\\fonts\\Flaticond41d.eot"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\Fontend\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\fonts\\flexslider-icon.eot",
+      "PackagePath": "staticwebassets\\Fontend\\fonts\\flexslider-icon.eot"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\fonts\\flexslider-icon.svg",
+      "PackagePath": "staticwebassets\\Fontend\\fonts\\flexslider-icon.svg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\fonts\\flexslider-icon.ttf",
+      "PackagePath": "staticwebassets\\Fontend\\fonts\\flexslider-icon.ttf"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\fonts\\flexslider-icon.woff",
+      "PackagePath": "staticwebassets\\Fontend\\fonts\\flexslider-icon.woff"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\fonts\\flexslider-icond41d.eot",
+      "PackagePath": "staticwebassets\\Fontend\\fonts\\flexslider-icond41d.eot"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\Fontend\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\Fontend\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\Fontend\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\Fontend\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\Fontend\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\fonts\\fontawesome-webfont3e6e.eot",
+      "PackagePath": "staticwebassets\\Fontend\\fonts\\fontawesome-webfont3e6e.eot"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\fonts\\fontawesome-webfont3e6e.svg",
+      "PackagePath": "staticwebassets\\Fontend\\fonts\\fontawesome-webfont3e6e.svg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\fonts\\fontawesome-webfont3e6e.ttf",
+      "PackagePath": "staticwebassets\\Fontend\\fonts\\fontawesome-webfont3e6e.ttf"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\fonts\\fontawesome-webfont3e6e.woff",
+      "PackagePath": "staticwebassets\\Fontend\\fonts\\fontawesome-webfont3e6e.woff"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\fonts\\fontawesome-webfont3e6e.woff2",
+      "PackagePath": "staticwebassets\\Fontend\\fonts\\fontawesome-webfont3e6e.woff2"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\fonts\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\Fontend\\fonts\\fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\fonts\\glyphicons-halflings-regular-2.html",
+      "PackagePath": "staticwebassets\\Fontend\\fonts\\glyphicons-halflings-regular-2.html"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\fonts\\glyphicons-halflings-regular-3.html",
+      "PackagePath": "staticwebassets\\Fontend\\fonts\\glyphicons-halflings-regular-3.html"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\fonts\\glyphicons-halflings-regular-4.html",
+      "PackagePath": "staticwebassets\\Fontend\\fonts\\glyphicons-halflings-regular-4.html"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\fonts\\glyphicons-halflings-regular-5.html",
+      "PackagePath": "staticwebassets\\Fontend\\fonts\\glyphicons-halflings-regular-5.html"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\Fontend\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\fonts\\glyphicons-halflings-regular.html",
+      "PackagePath": "staticwebassets\\Fontend\\fonts\\glyphicons-halflings-regular.html"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\Fontend\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\Fontend\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\Fontend\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\Fontend\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\fonts\\glyphicons-halflings-regulard41d.html",
+      "PackagePath": "staticwebassets\\Fontend\\fonts\\glyphicons-halflings-regulard41d.html"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\2-carpenter-tools-banner-1.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\2-carpenter-tools-banner-1.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\2-carpenter-tools-banner-2.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\2-carpenter-tools-banner-2.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\2-kindtoy-banner-2.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\2-kindtoy-banner-2.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\2-mega_accessories_1.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\2-mega_accessories_1.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\2-mega_accessories_2.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\2-mega_accessories_2.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\2-megamenu_digital_electronics_1.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\2-megamenu_digital_electronics_1.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\2-megamenu_furniture_home_decors_1.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\2-megamenu_furniture_home_decors_1.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\2-megamenu_kid_toy_1.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\2-megamenu_kid_toy_1.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\2-megamenu_tool_equiment_banner_1.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\2-megamenu_tool_equiment_banner_1.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\2-megamenu_tool_equiment_banner_2.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\2-megamenu_tool_equiment_banner_2.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\2-smartphone-laptop-banner-1.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\2-smartphone-laptop-banner-1.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\2-smartphone-laptop-banner-2.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\2-smartphone-laptop-banner-2.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\2-spa-organic-1.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\2-spa-organic-1.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\2-spa-organic-2.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\2-spa-organic-2.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\3-carpenter-tools-banner.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\3-carpenter-tools-banner.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\3-digital-electronic-banner.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\3-digital-electronic-banner.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\3-fashion-banner-1.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\3-fashion-banner-1.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\3-furniture-and-home-decors-banner.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\3-furniture-and-home-decors-banner.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\3-slide-banner-1.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\3-slide-banner-1.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\3-slide-banner-2.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\3-slide-banner-2.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\about-us-bg-page-title.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\about-us-bg-page-title.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\activeden.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\activeden.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\address.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\address.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\arow_left.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\arow_left.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\arow_right.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\arow_right.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\author-avata.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\author-avata.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\banner-01.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\banner-01.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\banner-02.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\banner-02.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\banner-shop-full-width.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\banner-shop-full-width.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\banner-small-01.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\banner-small-01.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\banner-top.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\banner-top.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\bg.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\bg.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\black_transparent50.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\black_transparent50.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\blogs\\blog-article-1.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\blogs\\blog-article-1.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\blogs\\blog-article-2.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\blogs\\blog-article-2.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\blogs\\blog-article-3.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\blogs\\blog-article-3.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\blogs\\blog-article-4.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\blogs\\blog-article-4.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\blogs\\blog-article-5.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\blogs\\blog-article-5.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\brands\\american-express.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\brands\\american-express.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\brands\\apple-store.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\brands\\apple-store.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\brands\\audiojungle.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\brands\\audiojungle.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\brands\\codecanyon.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\brands\\codecanyon.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\brands\\discover.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\brands\\discover.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\brands\\google-play-store.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\brands\\google-play-store.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\brands\\graphicriver.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\brands\\graphicriver.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\brands\\master-card.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\brands\\master-card.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\brands\\paypal.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\brands\\paypal.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\brands\\photodune.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\brands\\photodune.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\brands\\themeforest.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\brands\\themeforest.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\brands\\visa.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\brands\\visa.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\carticon.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\carticon.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\chua_mua_hang.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\chua_mua_hang.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\date-label.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\date-label.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\digital-electronic-banner.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\digital-electronic-banner.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\down-arow-2.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\down-arow-2.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\down-arow.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\down-arow.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\effects\\2eSd.gif",
+      "PackagePath": "staticwebassets\\Fontend\\images\\effects\\2eSd.gif"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\envato.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\envato.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\f.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\f.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\fashion-accesories-banner.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\fashion-accesories-banner.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\Fontend\\images\\favicon.ico"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\favicon.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\fbicon.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\fbicon.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\fblike.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\fblike.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\furniture-and-home-decors-banner.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\furniture-and-home-decors-banner.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\gplus.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\gplus.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\grid-icon.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\grid-icon.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\home-1-banner-1.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\home-1-banner-1.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\home-1-banner-2.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\home-1-banner-2.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\home-2-banner-1.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\home-2-banner-1.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\home-2-banner-2.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\home-2-banner-2.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\home-2-banner-3.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\home-2-banner-3.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\home-3-banner-1.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\home-3-banner-1.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\home-3-banner-2.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\home-3-banner-2.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\in.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\in.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\kids-toy-banner.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\kids-toy-banner.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\lang-can.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\lang-can.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\lang-en.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\lang-en.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\lang-fra.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\lang-fra.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\lang-ger.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\lang-ger.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\lang-hun.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\lang-hun.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\list-icon.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\list-icon.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\loginbg.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\loginbg.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\logo-top-1.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\logo-top-1.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\logo-top-2.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\logo-top-2.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\logo.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\logo.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\main-slider-1-1.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\main-slider-1-1.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\main-slider-1-2.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\main-slider-1-2.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\main-slider-1-3.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\main-slider-1-3.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\main-slider-2-1.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\main-slider-2-1.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\main-slider-2-2.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\main-slider-2-2.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\main-slider-2-3.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\main-slider-2-3.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\main-slider-3-1.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\main-slider-3-1.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\main-slider-3-2.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\main-slider-3-2.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\main-slider-3-3.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\main-slider-3-3.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\mega_accessories_1.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\mega_accessories_1.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\mega_accessories_2.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\mega_accessories_2.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\mega_accessories_3.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\mega_accessories_3.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\mega_accessories_pr1.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\mega_accessories_pr1.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\megamenu_digital_electronics_1.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\megamenu_digital_electronics_1.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\megamenu_furniture_home_decors_1.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\megamenu_furniture_home_decors_1.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\megamenu_kid_toy_1.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\megamenu_kid_toy_1.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\megamenu_tool_equiment_banner_1.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\megamenu_tool_equiment_banner_1.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\megamenu_tool_equiment_banner_2.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\megamenu_tool_equiment_banner_2.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\member-braum.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\member-braum.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\member-leona.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\member-leona.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\member-lucia.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\member-lucia.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\member-nana.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\member-nana.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\message.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\message.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\more-icon.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\more-icon.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\payment.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\payment.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\phone.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\phone.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\photodune.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\photodune.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\Nam_aonam_1.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\Nam_aonam_1.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\Nam_aonam_10.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\Nam_aonam_10.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\Nam_aonam_11.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\Nam_aonam_11.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\Nam_aonam_2.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\Nam_aonam_2.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\Nam_aonam_3.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\Nam_aonam_3.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\Nam_aonam_4.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\Nam_aonam_4.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\Nam_aonam_5.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\Nam_aonam_5.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\Nam_aonam_6.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\Nam_aonam_6.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\Nam_aonam_7.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\Nam_aonam_7.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\Nam_aonam_8.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\Nam_aonam_8.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\Nam_aonam_9.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\Nam_aonam_9.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\digital_01.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\digital_01.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\digital_02.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\digital_02.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\digital_03.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\digital_03.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\digital_04.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\digital_04.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\digital_05.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\digital_05.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\digital_06.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\digital_06.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\digital_07.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\digital_07.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\digital_08.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\digital_08.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\digital_09.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\digital_09.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\digital_10.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\digital_10.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\digital_11.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\digital_11.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\digital_12.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\digital_12.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\digital_13.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\digital_13.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\digital_14.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\digital_14.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\digital_15.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\digital_15.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\digital_16.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\digital_16.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\digital_17.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\digital_17.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\digital_18.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\digital_18.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\digital_19.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\digital_19.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\digital_20.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\digital_20.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\digital_21.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\digital_21.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\digital_22.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\digital_22.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\fashion_01.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\fashion_01.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\fashion_02.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\fashion_02.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\fashion_03.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\fashion_03.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\fashion_04.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\fashion_04.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\fashion_05.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\fashion_05.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\fashion_06.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\fashion_06.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\fashion_07.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\fashion_07.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\fashion_08.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\fashion_08.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\fashion_09.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\fashion_09.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\fashion_10.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\fashion_10.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\furniture_01.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\furniture_01.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\furniture_02.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\furniture_02.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\furniture_03.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\furniture_03.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\furniture_04.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\furniture_04.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\furniture_05.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\furniture_05.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\furniture_06.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\furniture_06.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\furniture_07.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\furniture_07.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\furniture_08.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\furniture_08.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\furniture_09.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\furniture_09.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\kidtoy_01.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\kidtoy_01.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\kidtoy_02.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\kidtoy_02.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\kidtoy_03.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\kidtoy_03.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\kidtoy_04.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\kidtoy_04.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\kidtoy_05.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\kidtoy_05.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\kidtoy_06.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\kidtoy_06.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\kidtoy_07.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\kidtoy_07.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\kidtoy_08.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\kidtoy_08.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\kidtoy_09.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\kidtoy_09.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\kidtoy_10.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\kidtoy_10.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\large\\products-01.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\large\\products-01.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\medium\\products-01.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\medium\\products-01.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\organics_spa_1.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\organics_spa_1.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\organics_spa_2.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\organics_spa_2.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\organics_spa_3.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\organics_spa_3.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\organics_spa_4.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\organics_spa_4.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\organics_spa_5.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\organics_spa_5.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\organics_spa_6.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\organics_spa_6.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\organics_spa_7.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\organics_spa_7.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\organics_spa_8.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\organics_spa_8.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\small\\products-01.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\small\\products-01.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\small\\products-02.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\small\\products-02.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\small\\products-03.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\small\\products-03.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\small\\products-04.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\small\\products-04.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\small\\products-05.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\small\\products-05.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\small\\products-06.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\small\\products-06.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\small\\products-07.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\small\\products-07.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\thum\\products-01.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\thum\\products-01.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\thum\\products-02.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\thum\\products-02.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\thum\\products-03.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\thum\\products-03.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\thum\\products-04.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\thum\\products-04.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\thum\\products-05.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\thum\\products-05.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\tools_equipment_1.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\tools_equipment_1.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\tools_equipment_2.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\tools_equipment_2.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\tools_equipment_3.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\tools_equipment_3.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\tools_equipment_4.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\tools_equipment_4.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\tools_equipment_5.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\tools_equipment_5.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\tools_equipment_6.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\tools_equipment_6.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\tools_equipment_7.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\tools_equipment_7.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\products\\tools_equipment_8.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\products\\tools_equipment_8.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\promotion-01.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\promotion-01.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\promotion-02.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\promotion-02.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\promotion-03.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\promotion-03.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\regbg.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\regbg.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\remove.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\remove.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\search-bg.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\search-bg.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\share.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\share.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\shop-banner.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\shop-banner.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\size-banner-widget.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\size-banner-widget.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\slider-image-01.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\slider-image-01.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\slider-image-02.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\slider-image-02.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\slider-image-03.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\slider-image-03.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\social-list.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\social-list.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\spa-banner.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\spa-banner.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\star.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\star.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\themeforest.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\themeforest.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\tool-banner.jpg",
+      "PackagePath": "staticwebassets\\Fontend\\images\\tool-banner.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\twi.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\twi.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\images\\up-arow.png",
+      "PackagePath": "staticwebassets\\Fontend\\images\\up-arow.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Fontend\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\js\\chosen.jquery.min.js",
+      "PackagePath": "staticwebassets\\Fontend\\js\\chosen.jquery.min.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\js\\functions.js",
+      "PackagePath": "staticwebassets\\Fontend\\js\\functions.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\js\\jquery-1.10.2.min.js",
+      "PackagePath": "staticwebassets\\Fontend\\js\\jquery-1.10.2.min.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\js\\jquery-1.12.4.minb8ff.js",
+      "PackagePath": "staticwebassets\\Fontend\\js\\jquery-1.12.4.minb8ff.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\js\\jquery-3.7.1.min.js",
+      "PackagePath": "staticwebassets\\Fontend\\js\\jquery-3.7.1.min.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\js\\jquery-ui-1.12.4.minb8ff.js",
+      "PackagePath": "staticwebassets\\Fontend\\js\\jquery-ui-1.12.4.minb8ff.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\js\\jquery.carouFredSel-6.2.1-packed.js",
+      "PackagePath": "staticwebassets\\Fontend\\js\\jquery.carouFredSel-6.2.1-packed.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\js\\jquery.countdown.min.js",
+      "PackagePath": "staticwebassets\\Fontend\\js\\jquery.countdown.min.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\js\\jquery.easing.1.3.js",
+      "PackagePath": "staticwebassets\\Fontend\\js\\jquery.easing.1.3.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\js\\jquery.elevatezoom.js",
+      "PackagePath": "staticwebassets\\Fontend\\js\\jquery.elevatezoom.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\js\\jquery.flexslider.js",
+      "PackagePath": "staticwebassets\\Fontend\\js\\jquery.flexslider.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\js\\jquery.sequence-min.js",
+      "PackagePath": "staticwebassets\\Fontend\\js\\jquery.sequence-min.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\js\\jquery.sticky.js",
+      "PackagePath": "staticwebassets\\Fontend\\js\\jquery.sticky.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\Fontend\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Fontend\\js\\script.min.js",
+      "PackagePath": "staticwebassets\\Fontend\\js\\script.min.js"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Adv\\133347666187463886_digital-electronic-banner.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Adv\\133347666187463886_digital-electronic-banner.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Adv\\133347666529861774_3-slide-banner-2.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Adv\\133347666529861774_3-slide-banner-2.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Adv\\133600595442608139_2-fashion-banner-1.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Adv\\133600595442608139_2-fashion-banner-1.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Adv\\133600595552984313_2-fashion-banner-2.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Adv\\133600595552984313_2-fashion-banner-2.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Adv\\133600595638030729_2-kindtoy-banner-1.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Adv\\133600595638030729_2-kindtoy-banner-1.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Adv\\133600597875345728_Nike.png",
+      "PackagePath": "staticwebassets\\Upload\\Adv\\133600597875345728_Nike.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Adv\\133600598030412883_banner-small-01.png",
+      "PackagePath": "staticwebassets\\Upload\\Adv\\133600598030412883_banner-small-01.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Adv\\133600598144273109_Lacoste.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Adv\\133600598144273109_Lacoste.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Adv\\Lacoste.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Adv\\Lacoste.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Adv\\Nike.png",
+      "PackagePath": "staticwebassets\\Upload\\Adv\\Nike.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Adv\\banner-01.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Adv\\banner-01.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Adv\\banner-02.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Adv\\banner-02.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Adv\\banner-small-01.png",
+      "PackagePath": "staticwebassets\\Upload\\Adv\\banner-small-01.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Adv\\louis_vuitton.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Adv\\louis_vuitton.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\News\\133345047325253075_user2-160x160.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133345047325253075_user2-160x160.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\News\\133345058121265657_user2-160x160.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133345058121265657_user2-160x160.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\News\\133345059983621404_user2-160x160.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133345059983621404_user2-160x160.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\News\\133345060086775002_user2-160x160.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133345060086775002_user2-160x160.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\News\\133345060169032254_user2-160x160.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133345060169032254_user2-160x160.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\News\\133345060267861926_user2-160x160.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133345060267861926_user2-160x160.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\News\\133347663938673035_blog-article-1.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133347663938673035_blog-article-1.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\News\\133347664032164143_blog-article-2.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133347664032164143_blog-article-2.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\News\\133347664108725619_blog-article-3.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133347664108725619_blog-article-3.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\News\\133347664196041622_blog-article-4.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133347664196041622_blog-article-4.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\News\\133589455722239789_ANH BAN DAU 1D.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133589455722239789_ANH BAN DAU 1D.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133347662255310017_digital_01.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133347662255310017_digital_01.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133347662331329152_digital_02.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133347662331329152_digital_02.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133347662496222678_digital_03.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133347662496222678_digital_03.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133347662591515801_digital_04.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133347662591515801_digital_04.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133347662679251440_digital_05.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133347662679251440_digital_05.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133347662826095067_digital_07.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133347662826095067_digital_07.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133347662965399532_digital_08.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133347662965399532_digital_08.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133347663074460021_digital_09.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133347663074460021_digital_09.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133347663189941485_digital_10.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133347663189941485_digital_10.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133347663287293555_digital_11.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133347663287293555_digital_11.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133347663373297900_digital_12.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133347663373297900_digital_12.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133347663472679669_digital_13.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133347663472679669_digital_13.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133423653735532958_blog-article-1.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133423653735532958_blog-article-1.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133423653907068573_digital_01.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133423653907068573_digital_01.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133423666562467758_digital_01.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133423666562467758_digital_01.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133571307938182898_product3.webp",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133571307938182898_product3.webp"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133571325374626613_abouts_avatar4.webp",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133571325374626613_abouts_avatar4.webp"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133571327207634928_abouts_avatar4.webp",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133571327207634928_abouts_avatar4.webp"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133571364571149695_fix-loi-dien-thoai-samsung-bi-mat-hinh-anh.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133571364571149695_fix-loi-dien-thoai-samsung-bi-mat-hinh-anh.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133574742662526686_dien-thoai-Samsung-Galaxy-S10-Plus-1.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133574742662526686_dien-thoai-Samsung-Galaxy-S10-Plus-1.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133600429223189774_Nam_aonam_1.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133600429223189774_Nam_aonam_1.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133600611199870611_Nam_aonam_3.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133600611199870611_Nam_aonam_3.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133600611308644535_Nam_aonam_4.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133600611308644535_Nam_aonam_4.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133600611674598535_Nam_aonam_11.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133600611674598535_Nam_aonam_11.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133600624869486468_Nam_aonam_5.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133600624869486468_Nam_aonam_5.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133600624983526308_Nam_aonam_5.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133600624983526308_Nam_aonam_5.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133600624983828201_Nam_aonam_5.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133600624983828201_Nam_aonam_5.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133600625163407448_Nam_aonam_5.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133600625163407448_Nam_aonam_5.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133600626213286087_Nam_aonam_5.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133600626213286087_Nam_aonam_5.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133600626373521223_Nam_aonam_5.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133600626373521223_Nam_aonam_5.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133600626494759522_Nam_aonam_5.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133600626494759522_Nam_aonam_5.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133600978900142898_133600611674598535_Nam_aonam_11.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133600978900142898_133600611674598535_Nam_aonam_11.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133600979618911480_Nam_aonam_2.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133600979618911480_Nam_aonam_2.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601246078430855_Nam_aonam_6.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601246078430855_Nam_aonam_6.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601246242738838_133600429223189774_Nam_aonam_1.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601246242738838_133600429223189774_Nam_aonam_1.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601259822973296_133600624983526308_Nam_aonam_5.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601259822973296_133600624983526308_Nam_aonam_5.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601262549111065_Nam_aonam_10.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601262549111065_Nam_aonam_10.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601266895747162_Nam_aonam_2.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601266895747162_Nam_aonam_2.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601267136709245_133600429223189774_Nam_aonam_1.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601267136709245_133600429223189774_Nam_aonam_1.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601267581490453_133601259822973296_133600624983526308_Nam_aonam_5.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601267581490453_133601259822973296_133600624983526308_Nam_aonam_5.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601268117232769_Nam_aonam_6.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601268117232769_Nam_aonam_6.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601268647915343_Nam_aonam_11.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601268647915343_Nam_aonam_11.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601269053522639_133600611308644535_Nam_aonam_4.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601269053522639_133600611308644535_Nam_aonam_4.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601269606798119_Nam_aonam_10.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601269606798119_Nam_aonam_10.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601270140357296_Nam_aonam_7.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601270140357296_Nam_aonam_7.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601270523744355_Nam_aonam_9.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601270523744355_Nam_aonam_9.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601276350422302_nam_quannam_10.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601276350422302_nam_quannam_10.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601276748075880_nam_quannam_8.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601276748075880_nam_quannam_8.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601277084444291_nam_quannam_6.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601277084444291_nam_quannam_6.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601277790585992_nam_quannam_7.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601277790585992_nam_quannam_7.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601278334895484_nam_quannam_9.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601278334895484_nam_quannam_9.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601278628811927_nam_quannam_1.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601278628811927_nam_quannam_1.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601279070190637_nam_quannam_4.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601279070190637_nam_quannam_4.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601279418772805_nam_quannam_3.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601279418772805_nam_quannam_3.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601283286628811_nam_giay_1.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601283286628811_nam_giay_1.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601283762086724_nam_giay_2.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601283762086724_nam_giay_2.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601284076364150_nam_giay_6.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601284076364150_nam_giay_6.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601284478708356_nam_giay_4.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601284478708356_nam_giay_4.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601285002683854_nam_giay_3.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601285002683854_nam_giay_3.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601285379484543_nam_giay_5.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601285379484543_nam_giay_5.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601285721050783_133601284478708356_nam_giay_4.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601285721050783_133601284478708356_nam_giay_4.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601286522807250_nam_giay_7.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601286522807250_nam_giay_7.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601290038191683_nu_aonu_1.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601290038191683_nu_aonu_1.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601291489365401_nu_aonu_1.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601291489365401_nu_aonu_1.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601297054980213_nu_aonu_2.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601297054980213_nu_aonu_2.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601297377559008_nu_aonu_3.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601297377559008_nu_aonu_3.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601297669153133_nu_aonu_4.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601297669153133_nu_aonu_4.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601298018677249_nu_aonu_5.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601298018677249_nu_aonu_5.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601298429051288_nu_aonu_6.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601298429051288_nu_aonu_6.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601298727484620_nu_aonu_7.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601298727484620_nu_aonu_7.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601299014148761_nu_aonu_8.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601299014148761_nu_aonu_8.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601309109837219_nu_vaynu_1.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601309109837219_nu_vaynu_1.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601309509746481_nu_vaynu_2.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601309509746481_nu_vaynu_2.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601309867703285_nu_vaynu_3.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601309867703285_nu_vaynu_3.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601310206441620_nu_vaynu_4.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601310206441620_nu_vaynu_4.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601310510099526_nu_vaynu_5.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601310510099526_nu_vaynu_5.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601310878432871_nu_vaynu_6.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601310878432871_nu_vaynu_6.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601311156535827_nu_vaynu_7.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601311156535827_nu_vaynu_7.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601311476960196_nu_vaynu_8.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601311476960196_nu_vaynu_8.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\133601566299898085_133601311476960196_nu_vaynu_8.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133601566299898085_133601311476960196_nu_vaynu_8.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\Nam_aonam_10.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\Nam_aonam_10.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\Nam_aonam_11.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\Nam_aonam_11.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\Nam_aonam_2.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\Nam_aonam_2.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\Nam_aonam_3.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\Nam_aonam_3.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\Nam_aonam_4.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\Nam_aonam_4.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\Nam_aonam_5.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\Nam_aonam_5.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\Nam_aonam_6.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\Nam_aonam_6.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\Nam_aonam_7.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\Nam_aonam_7.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\Nam_aonam_8.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\Nam_aonam_8.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\Nam_aonam_9.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\Nam_aonam_9.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\nam_giay_1.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\nam_giay_1.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\nam_giay_2.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\nam_giay_2.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\nam_giay_3.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\nam_giay_3.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\nam_giay_4.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\nam_giay_4.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\nam_giay_5.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\nam_giay_5.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\nam_giay_6.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\nam_giay_6.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\nam_giay_7.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\nam_giay_7.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\nam_giay_8.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\nam_giay_8.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\nam_quannam_1.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\nam_quannam_1.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\nam_quannam_10.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\nam_quannam_10.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\nam_quannam_2.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\nam_quannam_2.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\nam_quannam_3.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\nam_quannam_3.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\nam_quannam_4.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\nam_quannam_4.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\nam_quannam_5.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\nam_quannam_5.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\nam_quannam_6.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\nam_quannam_6.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\nam_quannam_7.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\nam_quannam_7.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\nam_quannam_8.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\nam_quannam_8.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\nam_quannam_9.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\nam_quannam_9.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\nu_aonu_1.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\nu_aonu_1.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\nu_aonu_2.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\nu_aonu_2.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\nu_aonu_3.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\nu_aonu_3.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\nu_aonu_4.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\nu_aonu_4.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\nu_aonu_5.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\nu_aonu_5.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\nu_aonu_6.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\nu_aonu_6.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\nu_aonu_7.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\nu_aonu_7.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\nu_aonu_8.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\nu_aonu_8.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\nu_vaynu_1.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\nu_vaynu_1.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\nu_vaynu_2.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\nu_vaynu_2.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\nu_vaynu_3.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\nu_vaynu_3.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\nu_vaynu_4.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\nu_vaynu_4.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\nu_vaynu_5.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\nu_vaynu_5.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\nu_vaynu_6.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\nu_vaynu_6.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\nu_vaynu_7.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\nu_vaynu_7.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Products\\nu_vaynu_8.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\nu_vaynu_8.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Slides\\133600595442608139_2-fashion-banner-1.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Slides\\133600595442608139_2-fashion-banner-1.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Slides\\133600595552984313_2-fashion-banner-2.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Slides\\133600595552984313_2-fashion-banner-2.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Slides\\133600595638030729_2-kindtoy-banner-1.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Slides\\133600595638030729_2-kindtoy-banner-1.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Slides\\2-fashion-banner-1.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Slides\\2-fashion-banner-1.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Slides\\2-fashion-banner-2.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Slides\\2-fashion-banner-2.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Slides\\2-kindtoy-banner-1.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Slides\\2-kindtoy-banner-1.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Slides\\banner-01.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Slides\\banner-01.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Slides\\banner-02.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Slides\\banner-02.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Slides\\banner-small-01.png",
+      "PackagePath": "staticwebassets\\Upload\\Slides\\banner-small-01.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Tags\\Burberry.png",
+      "PackagePath": "staticwebassets\\Upload\\Tags\\Burberry.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Tags\\Channel.png",
+      "PackagePath": "staticwebassets\\Upload\\Tags\\Channel.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Tags\\D&G.png",
+      "PackagePath": "staticwebassets\\Upload\\Tags\\D&G.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Tags\\Dior.png",
+      "PackagePath": "staticwebassets\\Upload\\Tags\\Dior.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Tags\\Gucci.png",
+      "PackagePath": "staticwebassets\\Upload\\Tags\\Gucci.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Tags\\Hermes.png",
+      "PackagePath": "staticwebassets\\Upload\\Tags\\Hermes.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Tags\\Lacoste.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Tags\\Lacoste.jpg"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Tags\\Nike.png",
+      "PackagePath": "staticwebassets\\Upload\\Tags\\Nike.png"
+    },
+    {
+      "Id": "G:\\FPL\\Project\\ProjectCaNhan\\project_ca_nhan\\project_ca_nhan\\wwwroot\\Upload\\Tags\\louis_vuitton.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Tags\\louis_vuitton.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.project_ca_nhan.props",
+      "PackagePath": "build\\project_ca_nhan.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.project_ca_nhan.props",
+      "PackagePath": "buildMultiTargeting\\project_ca_nhan.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.project_ca_nhan.props",
+      "PackagePath": "buildTransitive\\project_ca_nhan.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.project_ca_nhan.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
